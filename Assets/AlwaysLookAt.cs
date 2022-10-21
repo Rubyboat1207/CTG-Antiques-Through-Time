@@ -11,6 +11,6 @@ public class AlwaysLookAt : MonoBehaviour
     void Update()
     {
         transform.LookAt(target, Vector3.up);
-        transform.Rotate(new Vector3(90,0));
+        transform.Rotate(new Vector3(0,180));
     }
 }
