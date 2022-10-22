@@ -9,18 +9,43 @@ public class Interactable : MonoBehaviour
     // 3. trigger component, then if the player steps inside the 
     //    trigger you set a flag to be true, and if the flag is true, you can interact
 
-    float interactRadius = 5;
+    public int Solution = 1;
+    [SerializeField] Vector3 ParticleOffset;
+
+    GameObject InteractEffectInstance;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        // Check to see if this interactable is selected
+        if (Interacter.selectedInteract == gameObject)
         {
-            if (Mathf.Abs((PlayerMove.Instance.transform.position - transform.position).magnitude) < interactRadius)
-            {
+            // Preform Interact Check
+            if(Input.GetKeyDown(KeyCode.E)) {
                 Interact();
             }
+
+            // Spawn Effect Particle
+            if(InteractEffectInstance == null) {
+                //Instanciate Object
+                InteractEffectInstance = GameObject.Instantiate(
+                    // Find Particle Effect
+                    Resources.Load<GameObject>("Particles/Interact"),
+                    // Set parent
+                    transform
+                );
+                //Move the particle
+                InteractEffectInstance.transform.localPosition = Vector3.zero + ParticleOffset;
+            }
         }
+        //Check to see if an interactable is left over
+        else if(InteractEffectInstance) {
+            Destroy(InteractEffectInstance);
+        }
+    }
+
+    private void Start() {
+        Interacter.interactables.Add(this);
     }
 
     public virtual void Interact()
