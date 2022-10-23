@@ -8,18 +8,20 @@ public class Interactable : MonoBehaviour
     // 2. Get the player, then get the distance, then if the distance is lower than maximum, allow the interaction
     // 3. trigger component, then if the player steps inside the 
     //    trigger you set a flag to be true, and if the flag is true, you can interact
-
+    [Header("Base Interactable")]
     public int Solution = 1;
     [SerializeField] Vector3 ParticleOffset;
 
     GameObject InteractEffectInstance;
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
+        print("test");
         // Check to see if this interactable is selected
         if (Interacter.selectedInteract == gameObject)
         {
+            
             // Preform Interact Check
             if(Input.GetKeyDown(KeyCode.E)) {
                 Interact();
@@ -27,15 +29,7 @@ public class Interactable : MonoBehaviour
 
             // Spawn Effect Particle
             if(InteractEffectInstance == null) {
-                //Instanciate Object
-                InteractEffectInstance = GameObject.Instantiate(
-                    // Find Particle Effect
-                    Resources.Load<GameObject>("Particles/Interact"),
-                    // Set parent
-                    transform
-                );
-                //Move the particle
-                InteractEffectInstance.transform.localPosition = Vector3.zero + ParticleOffset;
+                CreateParticle();
             }
         }
         //Check to see if an interactable is left over
@@ -51,5 +45,23 @@ public class Interactable : MonoBehaviour
     public virtual void Interact()
     {
         print("Interacted with: " + gameObject.name); 
+    }
+
+    //This was going to be used to make it not targetable, but then i just decided to add isTargetable()
+    //Could be used to add multiple particles maybe
+    public virtual void CreateParticle() {
+        //Instanciate Object
+        InteractEffectInstance = GameObject.Instantiate(
+            // Find Particle Effect
+            Resources.Load<GameObject>("Particles/Interact"),
+            // Set parent
+            transform
+        );
+        //Move the particle
+        InteractEffectInstance.transform.localPosition = Vector3.zero + ParticleOffset;
+    }
+
+    public virtual bool isTargetable() {
+        return true;
     }
 }

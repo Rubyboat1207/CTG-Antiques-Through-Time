@@ -2,21 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// TODO: Switch to toggleable for when the completion is done
 public class PuzzleInteractable : Interactable
 {
     public GameObject puzzle;
-    
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
-        
-    }
 
     public override void Interact()
     {

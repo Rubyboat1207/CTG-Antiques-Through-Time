@@ -5,20 +5,22 @@ using UnityEngine;
 public class PuzzleHandler : Interactable
 {
     [SerializeField]
-    float cumpleation;
+    // Sorry collin, but i dont know if I want "cumpletion" to be the variable name
+    float completionPercent;
     public void SetPuzzleCompletionPercentage(float percent)
     {
-        cumpleation = percent;
+        completionPercent = percent;
     }
 
     public void addCompletionPercentage(float percent)
     {
-        cumpleation += percent;
+        completionPercent += percent;
     }
 
     void Update()
     {
-        if (cumpleation >= 100)
+        base.Update();
+        if (completionPercent >= 100)
         {
             Destroy(gameObject);
         }
