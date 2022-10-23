@@ -13,13 +13,13 @@ public class Interacter : MonoBehaviour
     private void Update() {
         // If there is a selected interactable
         if(selectedInteract) {
-            // Check if this interactable is valid
-            if(!selectedInteract.GetComponent<Interactable>().isTargetable()) {
-                selectedInteract = null;
-            }
             // Check if this interactable is within range
             if(distance == Vector3.Distance(selectedInteract.transform.position, transform.position)) {
                 return;
+            }
+            // Check if this interactable is valid
+            if(!selectedInteract.GetComponent<Interactable>().isTargetable()) {
+                selectedInteract = null;
             }
         }
         distance = float.MaxValue;

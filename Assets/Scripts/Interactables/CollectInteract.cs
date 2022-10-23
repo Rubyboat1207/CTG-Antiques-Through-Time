@@ -25,11 +25,9 @@ public class CollectInteract : ToggleableInteractable
         );
         aquiredScreen.transform.GetChild(2).GetComponent<Image>().sprite = Texture;
         aquiredScreen.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text = $"{ArtifactName} aquired!";
-        aquiredScreen.GetComponent<Animation>().Play("CollectableGet");
-        if(shouldDelete) {
-            Interacter.selectedInteract = null;
-            Destroy(gameObject);
-        }
+        int rand = Random.Range(0, 5);
+        print(rand);
+        aquiredScreen.GetComponent<Animation>().Play(rand == 1 ? "RareCollectableGet" : "CollectableGet");
     }
 
     private new void Update() {
@@ -37,6 +35,10 @@ public class CollectInteract : ToggleableInteractable
         if(aquiredScreen) {
             if(aquiredScreen.GetComponent<FlagHandler>().AnimationComplete){
                 Destroy(aquiredScreen);
+                if(shouldDelete) {
+                    Interacter.selectedInteract = null;
+                    Destroy(gameObject);
+                }
             }
         }
     }
