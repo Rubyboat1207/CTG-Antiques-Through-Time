@@ -25,8 +25,10 @@ public class CollectInteract : ToggleableInteractable
         );
         aquiredScreen.transform.GetChild(2).GetComponent<Image>().sprite = Texture;
         aquiredScreen.transform.GetChild(3).GetComponent<TextMeshProUGUI>().text = $"{ArtifactName} aquired!";
-        int rand = Random.Range(0, 5);
-        print(rand);
+        int rand = Random.Range(0, 10);
+        if(shouldDelete) {
+            GetComponent<Renderer>().enabled = false;
+        }
         aquiredScreen.GetComponent<Animation>().Play(rand == 1 ? "RareCollectableGet" : "CollectableGet");
     }
 

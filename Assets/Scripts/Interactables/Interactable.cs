@@ -9,15 +9,15 @@ public class Interactable : MonoBehaviour
     // 3. trigger component, then if the player steps inside the 
     //    trigger you set a flag to be true, and if the flag is true, you can interact
     [Header("Base Interactable")]
-    public int Solution = 1;
     [SerializeField] Vector3 ParticleOffset;
+
+    public float extraInteractDistance = 0;
 
     GameObject InteractEffectInstance;
 
     // Update is called once per frame
     protected void Update()
     {
-        print("test");
         // Check to see if this interactable is selected
         if (Interacter.selectedInteract == gameObject)
         {
@@ -63,5 +63,9 @@ public class Interactable : MonoBehaviour
 
     public virtual bool isTargetable() {
         return true;
+    }
+
+    void OnDestroy() {
+        Interacter.interactables.Remove(this);
     }
 }

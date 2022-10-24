@@ -6,20 +6,21 @@ public class Interacter : MonoBehaviour
 {
     public static float distance = float.MaxValue;
     public static GameObject selectedInteract;
-    public static float InteractDistance = 5;
+    public static float InteractDistance = 3;
 
     public static List<Interactable> interactables = new List<Interactable>();
 
     private void Update() {
         // If there is a selected interactable
         if(selectedInteract) {
-            // Check if this interactable is within range
-            if(distance == Vector3.Distance(selectedInteract.transform.position, transform.position)) {
-                return;
-            }
             // Check if this interactable is valid
             if(!selectedInteract.GetComponent<Interactable>().isTargetable()) {
                 selectedInteract = null;
+            }else{
+                // Check if this interactable is within range
+                if(distance == Vector3.Distance(selectedInteract.transform.position, transform.position)) {
+                    return;
+                }
             }
         }
         distance = float.MaxValue;
@@ -33,7 +34,7 @@ public class Interacter : MonoBehaviour
             // store the distance to the target
             float dist = Vector3.Distance(it.transform.position, transform.position);
             if (
-                dist < InteractDistance // Check if the distance is within range
+                dist < InteractDistance + it.extraInteractDistance // Check if the distance is within range
                 && 
                 dist < distance // Check if its the closest
             ) {
@@ -48,4 +49,6 @@ public class Interacter : MonoBehaviour
             selectedInteract = null;
         }
     }
+
+
 }

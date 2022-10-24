@@ -7,6 +7,7 @@ public class PuzzleHandler : Interactable
     [SerializeField]
     // Sorry collin, but i dont know if I want "cumpletion" to be the variable name
     float completionPercent;
+    public PuzzleInteractable interactable;
     public void SetPuzzleCompletionPercentage(float percent)
     {
         completionPercent = percent;
@@ -22,6 +23,7 @@ public class PuzzleHandler : Interactable
         base.Update();
         if (completionPercent >= 100)
         {
+            interactable.OnPuzzleComplete();
             Destroy(gameObject);
         }
     }
