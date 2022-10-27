@@ -319,7 +319,7 @@ AnimatorController:
   - m_Name: Player
     m_Type: 3
     m_DefaultFloat: 0
-    m_DefaultInt: 1
+    m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
   - m_Name: X_Vel
@@ -509,7 +509,7 @@ AnimatorStateMachine:
     m_Position: {x: -370, y: 170, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3511373407247626619}
-    m_Position: {x: 230, y: 170, z: 0}
+    m_Position: {x: 250, y: 200, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -1080092184653403979}
