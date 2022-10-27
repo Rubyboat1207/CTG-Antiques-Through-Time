@@ -18,7 +18,7 @@ public class PuzzleHandler : Interactable
         completionPercent += percent;
     }
 
-    void Update()
+    new void Update()
     {
         base.Update();
         if (completionPercent >= 100)
