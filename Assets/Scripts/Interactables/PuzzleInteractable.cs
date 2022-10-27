@@ -6,7 +6,7 @@ using UnityEngine;
 public class PuzzleInteractable : ToggleableInteractable
 {
     public GameObject puzzle;
-    public Animation animation;
+    public Animation anim;
 
     public override void Interact()
     {
@@ -16,6 +16,6 @@ public class PuzzleInteractable : ToggleableInteractable
 
     public virtual void OnPuzzleComplete() {
         isInteractable = false;
-        animation.Play();
+        anim.Play();
     }
 }
