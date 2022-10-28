@@ -550,14 +550,14 @@ MonoBehaviour:
   type: 0
   stats:
   - id: 0
-    speed: 3
-    jumpheight: 2
+    speed: 4
+    jumpheight: 2.5
   - id: 1
-    speed: 3
-    jumpheight: 2
+    speed: 5
+    jumpheight: 3
   - id: 2
     speed: 7
-    jumpheight: 2
+    jumpheight: 2.5
 --- !u!1 &4988268635254333420
 GameObject:
   m_ObjectHideFlags: 0

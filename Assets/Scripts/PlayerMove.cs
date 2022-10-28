@@ -11,6 +11,8 @@ public class PlayerMove : MonoBehaviour
     public float speed = 5;
     public float jumpForce = 5;
     float yVelocity = 0;
+    public bool canMove = true;
+
     CharacterController cc;
     void Start() {
         if(Instance == null)
@@ -37,17 +39,19 @@ public class PlayerMove : MonoBehaviour
                 yVelocity = jumpForce;
             }
         }
+        if (canMove)
+        {
+            // Grab the direct input from the user
+            Vector3 inputVector = new Vector3(Input.GetAxis("Horizontal"), yVelocity, Input.GetAxis("Vertical"));
 
-        // Grab the direct input from the user
-        Vector3 inputVector = new Vector3(Input.GetAxis("Horizontal"), yVelocity, Input.GetAxis("Vertical"));
+            // Make moving no longer dependant on the frame rate
+            Vector3 frameAdjustedMovement = inputVector * Time.deltaTime;
 
-        // Make moving no longer dependant on the frame rate
-        Vector3 frameAdjustedMovement = inputVector * Time.deltaTime;
+            // use our speed variable
+            Vector3 finalVector = frameAdjustedMovement * speed;
 
-        // use our speed variable
-        Vector3 finalVector = frameAdjustedMovement * speed;
-
-        // Move the character by the vector
-        cc.Move(finalVector);
+            // Move the character by the vector
+            cc.Move(finalVector);
+        }
     }
 }
