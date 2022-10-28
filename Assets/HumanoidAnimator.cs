@@ -30,8 +30,13 @@ public class HumanoidAnimator : MonoBehaviour
         Vector3 velocity = GetVelocity();
 
         animator.SetFloat("X_Vel", velocity.x);
+        if(velocity.x == 0) {
+            animator.SetFloat("X_Vel", velocity.z);
+        }
         animator.SetFloat("Y_Vel", velocity.y);
-        facingLeft = velocity.x < 0;
+        if(velocity.x != 0) {
+            facingLeft = velocity.x < 0;
+        }
         animator.SetBool("Grounded", GetComponent<CharacterController>().isGrounded);
         transform.localScale = new Vector3(initx * (facingLeft ? -1 : 1), transform.localScale.y, transform.localScale.z);
         //End of frame

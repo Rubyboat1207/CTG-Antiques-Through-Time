@@ -8,8 +8,8 @@ public class PlayerMove : MonoBehaviour
     public static PlayerMove Instance;
 
     // [SerializeField] means it shows up in the editor, even if its private
-    [SerializeField] float speed = 5;
-    [SerializeField] float jumpForce = 5;
+    public float speed = 5;
+    public float jumpForce = 5;
     float yVelocity = 0;
     CharacterController cc;
     void Start() {
