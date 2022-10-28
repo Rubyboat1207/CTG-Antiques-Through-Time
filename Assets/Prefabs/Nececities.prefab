@@ -530,8 +530,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lastPos: {x: 0, y: 0, z: 0}
+  initx: 0
   curPos: {x: 0, y: 0, z: 0}
   positionDelta: {x: 0, y: 0, z: 0}
+  facingLeft: 0
 --- !u!1 &4988268635254333420
 GameObject:
   m_ObjectHideFlags: 0

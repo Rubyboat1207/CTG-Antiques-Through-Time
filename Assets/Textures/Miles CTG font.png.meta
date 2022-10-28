@@ -1,0 +1,3356 @@
+fileFormatVersion: 2
+guid: 1845a3439361dc34e9dea3ce24dfe25b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Miles CTG font_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5894a6414c627994a88f29276c9b60cf
+      internalID: 1843600393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d42b2eb35723bd41965ab5906ba5b34
+      internalID: 689600530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_2
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f96f03675cf31e43954e382dc9e8101
+      internalID: -1413398353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_3
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759c6e4d4e99bf4418526d9d87955c9a
+      internalID: 1906985378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa6b81d9f12212428c91dd0d0ec302a
+      internalID: 1513292251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_5
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3827cfad3964949add691291b51f73
+      internalID: -1593279807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_6
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0433c8e7a4c1ac4abfd94acc86335ab
+      internalID: 570647814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce66fa33a9045348ae02767a7cb5537
+      internalID: 779935645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_8
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf422fea34700445bcd2e5859e1e311
+      internalID: 1836419599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_9
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e56ddd3eaa94fc4d89e69b4930f88e5
+      internalID: -1982215930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_10
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a17c6acc43c134d89cb0891f1b4f41
+      internalID: 1037590702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_11
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f2dd74cc861db45b6b5f0eea778e09
+      internalID: -1611565392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_12
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd4a24c3eb387f4e8418d2214f73f68
+      internalID: 997368651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_13
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e32d080b9b56f24a998330e7349926d
+      internalID: 1362918603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_14
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87edd840ecee9c948b06be8f6bde232f
+      internalID: 513197720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_15
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419221809071d2d49b7d9854940815ff
+      internalID: -1129710823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_16
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ff4897841498549a9c99f194968d1c
+      internalID: -1438124146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_17
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a480a41462bc045b121f8bc4f6448d
+      internalID: 540228776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_18
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65564eaf2731b64ea80d58033d374a0
+      internalID: -461328987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_19
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd955ba14133350408e005cc2d0cd4bc
+      internalID: -712671219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_20
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b659cdf57a2344d92c1f527416a4e3
+      internalID: 544937419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_21
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f397ea80fdfd143a88de7897023472
+      internalID: 1716364400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_22
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc41c9736a35c349b0391942e1c9c83
+      internalID: -1865970552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_23
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbf04786e3401443b9deba9c0e5444b
+      internalID: -667618799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_24
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a752d534070ec4e8ca28a1427c775e
+      internalID: 2134908654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_25
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 380
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc2e5f042a0dd0844b77e10fc0164c04
+      internalID: 934807061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_26
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a20b11a25cf13740be6a757e0254fb7
+      internalID: 648885743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_27
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea1a99abe9577641b01d293cc28e012
+      internalID: -1829091965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_28
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97bb37271e51af46b798f41e5066908
+      internalID: 1453650965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_29
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75588af08128dfc488dac9adee4d3ce4
+      internalID: 166167485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_30
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19ba1a8362c1874481ad2e269544c18
+      internalID: -630691465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_31
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e33a0ffe94f7f4ca568b1f10e95e1f
+      internalID: -850415930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_32
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ae91a07fcebd14db48bc3479ee974b
+      internalID: 1306615522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_33
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967ed2aed8ec1fb47a4c7af0eba58be6
+      internalID: 132678253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_34
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b822debf00f163b41994d4c5cd130a1d
+      internalID: -1965809418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_35
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52654e4453865e34182797b9e53e35ef
+      internalID: -1669632033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_36
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259cbcc367b09294997c3fc6469ecf99
+      internalID: 1424214357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_37
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ea5fb5d57fce8449c88bbeec65b361
+      internalID: -238405761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_38
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffba62988d4201b449569b8bcc726d5a
+      internalID: -1151949773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_39
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f3b61355606534c8aa45f7a95c2770
+      internalID: 923197292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_40
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f427673f2bef0b948b56689a6b10dc2d
+      internalID: 1775067831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_41
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad12031191738b945b1e076431178784
+      internalID: -1396643487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_42
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537966c36912c2544a3ac89ef31d7cbe
+      internalID: -1249874580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_43
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f83fb646f637046bd2098514be8586
+      internalID: 1802903926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_44
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54950a2a01f400b46b63e79dc0370581
+      internalID: -1089480605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_45
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3611bb9981e8c864aaeadb80941f1350
+      internalID: 419727660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_46
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca01d3e60572b14bb43a0e38af9e82f
+      internalID: -1450944747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_47
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf85f7bf1db705643b634aa3d712721e
+      internalID: 100980124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_48
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de418367cd35b394ea64193077b16d3c
+      internalID: 584285828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_49
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 305
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e928e3df9e89894081af8336232376e
+      internalID: -1635039490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_50
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0553af7716267a942b47f732c9679337
+      internalID: 1871158623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_51
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be4c10c417aeeb4f8315e7a9d7183d6
+      internalID: -173668208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_52
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6962f8191f0e44468614f1f56740204
+      internalID: 31296868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_53
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea57f32d2cd3a840ac78634bf4abf06
+      internalID: 2139673701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_54
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18d694bf8f1f2b419594a5ff0ec8c17
+      internalID: -1733835887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_55
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f51a47728e77fc4db4470f8602af139
+      internalID: -719497103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_56
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee082e58965e38b4ab075eb22b3e8e7d
+      internalID: -882824569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_57
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694f7a6937e208f49a2123ebd5501230
+      internalID: 473888253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_58
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a7b45c13a5bf440bea22cb80d3972a
+      internalID: -924605988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_59
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b8260f342008d49bbb60e4772bff07
+      internalID: -704806356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_60
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9593e6f61534f2848ac756658b2b06bb
+      internalID: 1700820292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_61
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557b9e36ed347eb4b9692d88350bb7f0
+      internalID: 1331076267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_62
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee35a4a7902fcec4e9badb73afc62cce
+      internalID: 1189561171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_63
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357c0d7dfda6f1545872d834c82f67e0
+      internalID: 522817637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_64
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ba56784f1bdd748a4155ebace39f3c
+      internalID: -129354677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_65
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf91fa4a16e98a5428e8fedd06faccab
+      internalID: -460609772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_66
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8861dcbdd9be04e8227276ac5db213
+      internalID: 422116136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_67
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb3b1a41d701834387bd3c8b01d8911
+      internalID: -141718706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_68
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 230
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48431ead483ed4b47843a2c306a87ef9
+      internalID: -2047575445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_69
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debf4f3f1eeea134ab52587a43aaf83f
+      internalID: -759119490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_70
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23340e9165ac80248b698de806fb1341
+      internalID: 3510756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_71
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7ea9b3c495d5c4b8bf6be0e20ffc8b
+      internalID: 1794746530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_72
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38010fc3c1571d4fa0b17c77865945b
+      internalID: -2078377811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_73
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aab0ecaa3339f44aa3611b8e3a23a4
+      internalID: -1877187568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_74
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4520a12537c626b47bc6b8d1c25f66fb
+      internalID: 526921440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_75
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20806cbcf15bfd46b213fb7244d4f9f
+      internalID: -1812516238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_76
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa8105d797f1164ba347a4cbebd9945
+      internalID: -900645504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_77
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206caeb10887d6d46b801427b70da7f9
+      internalID: 697809519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_78
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9c493b688b29149b29ba9dec1b670a
+      internalID: 828764142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_79
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16b56978a988aa4dba60363de000ecf
+      internalID: -1509521790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_80
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9564d3f824e33394c973a612c5ee0be1
+      internalID: -146526713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_81
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44139f1b89fcace4e8a0877c544884e8
+      internalID: -244245361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_82
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75edd038fbce2a143b48c7d3eb8358ec
+      internalID: 1548146101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_83
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2543e87aff98ee4d9fb453fd5a01cbd
+      internalID: 1998949669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_84
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998f97790d277394f851895c3dfc57d1
+      internalID: -1901133867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_85
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30f7c4bf79ca3145b98ea589b1867b3
+      internalID: 1278689475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_86
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49d2a358d50d744fa47cfb6884fe887
+      internalID: 1774049314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_87
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3436a295ebe65443a6361fcead8cf32
+      internalID: -799938726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_88
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4aa08985d423e4eb65b12cf0d2b862
+      internalID: 957772608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_89
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9890543f53f54234eb248229ee1515f2
+      internalID: 1141383432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_90
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14913b1a06e087048a91e1b3fae05ec2
+      internalID: 774007874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_91
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae78829d6e69ccf4fa243f90de526ce0
+      internalID: -78428494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_92
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aaf2fc18bfa9c4789c25ded21166d3
+      internalID: 1688304216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_93
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97622e51571b14a498b1f7fd49c56b11
+      internalID: 556912465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_94
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 155
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4404553a9720d4fbccc6b7329391ef
+      internalID: -877424856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_95
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7d9ec770902ac4d818a19e0c89a529
+      internalID: -1040052446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_96
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f251ea674b04a4ba08bd486941d0a1
+      internalID: -388263539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_97
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568624ada1896424182278393ac094a8
+      internalID: -822261051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_98
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24deee3b73651b34caeca1297248ad01
+      internalID: 1295236038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_99
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89d23b09f7dad6479577640679c6fa3
+      internalID: 1491447538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_100
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb48deccbcaf6d04eb14591d691f550f
+      internalID: 1748700279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_101
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216668a0045833d4d94a72f15efe4278
+      internalID: -203746474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_102
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d255e1d988c6446b3fed520238ff55
+      internalID: 1518000931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_103
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749c61fc4e192d419d29dd5e6664e7f
+      internalID: 1313949850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_104
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9342883223c23147b5c7068ed35a1a3
+      internalID: 1796337541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_105
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20e57f13b9720d409a72d8194553921
+      internalID: 953293876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_106
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c7483256a72144eaac3f42da3a3b91
+      internalID: -1198360004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_107
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa199fc68cda2c4992d57c6de29b997
+      internalID: 1880578172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_108
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6c9d38a961a8f458f99a918daad580
+      internalID: -307946801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_109
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625080ee84dd4374e969f0b3661f237f
+      internalID: -490936234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_110
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7645a8a9c954e2498711ced8c8a7bd1
+      internalID: 724657376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_111
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c9637ada99ad742b297234d788b766
+      internalID: -1272104093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_112
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0ef4af71f45ff4a9297972812886ef
+      internalID: -201892271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_113
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b7e3706888718448e0a301e4c02cac
+      internalID: 1220646423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_114
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebacaa9f21163f4ab90122a98f2f6ae
+      internalID: 832620524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_115
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faee572bfb7e2441b165394234465b6
+      internalID: 1048986252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_116
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01748bf8f5c8fc4381568406a38e0ce
+      internalID: -1940145760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_117
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668c3e8d515fba9419017ea5c595359f
+      internalID: 1934111306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_118
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424c49d34a9361746b51a74266b6de60
+      internalID: 1458096168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_119
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c14e7346220b34097eb9f0b7664e8d
+      internalID: -682942309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_120
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 80
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc89357e7e7ff14aa2ebdbd81b7178f
+      internalID: -1600144146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_121
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ca32494621aab41b0d076e21e93082
+      internalID: 1651608109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_122
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e408af40c570fd54ca9c8e094469d4fd
+      internalID: 1232419570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_123
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3612777ffc10a44a91cd1f70f12a47
+      internalID: 1744316974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_124
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8772c7731a45ee94bb49fb3f67b9b934
+      internalID: 656555952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_125
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9a7b0fd23b7da4d9ace9090c048bef
+      internalID: -714842921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_126
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe7405b4400ec94f9619a6baeffb052
+      internalID: 1234979054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_127
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9817bd4176a82bc439b444862748405d
+      internalID: -529449769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_128
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ef34f04ae348740b2a876b39969999
+      internalID: -906541053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_129
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a72cc86b79d41042a18a4294c86ccf8
+      internalID: 1065046759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_130
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828247f7cfe99a34db7c667ab0d329e4
+      internalID: -1603453810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_131
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e491d301a367043904c51eaf4efe51
+      internalID: -1359233762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_132
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b360b086dd3e64d9e706ceaa36c854
+      internalID: -1545822768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_133
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b98183d70a0864285cb77c9fc382bf
+      internalID: 1008184428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_134
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74520623e4834df41b9c44fc1cb7b364
+      internalID: -2104372191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_135
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce65cfefb6f55e4798dcaa7ce0ef4c4
+      internalID: 615900436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_136
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dedc818f3b27b48a8c7ee7fca5c400
+      internalID: -1786260107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_137
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22749dd7c51daee4abc8ea9403b3562f
+      internalID: -1567558092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_138
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfed593d2e45e3d4e860d1a6664cf07f
+      internalID: 544160813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_139
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273c8831fbc4e384aa39f9258d5181e3
+      internalID: -393184441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_140
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9860549a6a62c3448b2e26981ae23954
+      internalID: 1322060898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_141
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33bfdace6f8adf44bc6e9d1df599cab
+      internalID: -1252382508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_142
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22d6e97b7b5fa74faea0233ab7196c6
+      internalID: -663884271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_143
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0444c12dc85e8fe46b8363f4892f3e6b
+      internalID: -1604607366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_144
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420b683d2c5f9194685c17e82d4dfdbd
+      internalID: 1394029674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_145
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c5a79abe59d9a42a1bb8d39dbeaf84
+      internalID: 814361987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Miles CTG font_146
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 5
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461e099fae5fd054881f4728e76ae3fe
+      internalID: -1305409560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Miles CTG font_85: 1278689475
+      Miles CTG font_40: 1775067831
+      Miles CTG font_123: 1744316974
+      Miles CTG font_50: 1871158623
+      Miles CTG font_24: 2134908654
+      Miles CTG font_110: 724657376
+      Miles CTG font_5: -1593279807
+      Miles CTG font_17: 540228776
+      Miles CTG font_74: 526921440
+      Miles CTG font_97: -822261051
+      Miles CTG font_73: -1877187568
+      Miles CTG font_13: 1362918603
+      Miles CTG font_99: 1491447538
+      Miles CTG font_37: -238405761
+      Miles CTG font_112: -201892271
+      Miles CTG font_43: 1802903926
+      Miles CTG font_49: -1635039490
+      Miles CTG font_113: 1220646423
+      Miles CTG font_20: 544937419
+      Miles CTG font_38: -1151949773
+      Miles CTG font_31: -850415930
+      Miles CTG font_54: -1733835887
+      Miles CTG font_125: -714842921
+      Miles CTG font_130: -1603453810
+      Miles CTG font_2: -1413398353
+      Miles CTG font_117: 1934111306
+      Miles CTG font_140: 1322060898
+      Miles CTG font_100: 1748700279
+      Miles CTG font_71: 1794746530
+      Miles CTG font_28: 1453650965
+      Miles CTG font_104: 1796337541
+      Miles CTG font_124: 656555952
+      Miles CTG font_18: -461328987
+      Miles CTG font_34: -1965809418
+      Miles CTG font_91: -78428494
+      Miles CTG font_96: -388263539
+      Miles CTG font_79: -1509521790
+      Miles CTG font_86: 1774049314
+      Miles CTG font_52: 31296868
+      Miles CTG font_83: 1998949669
+      Miles CTG font_0: 1843600393
+      Miles CTG font_129: 1065046759
+      Miles CTG font_89: 1141383432
+      Miles CTG font_102: 1518000931
+      Miles CTG font_35: -1669632033
+      Miles CTG font_30: -630691465
+      Miles CTG font_82: 1548146101
+      Miles CTG font_7: 779935645
+      Miles CTG font_55: -719497103
+      Miles CTG font_111: -1272104093
+      Miles CTG font_57: 473888253
+      Miles CTG font_6: 570647814
+      Miles CTG font_10: 1037590702
+      Miles CTG font_128: -906541053
+      Miles CTG font_115: 1048986252
+      Miles CTG font_59: -704806356
+      Miles CTG font_101: -203746474
+      Miles CTG font_36: 1424214357
+      Miles CTG font_81: -244245361
+      Miles CTG font_139: -393184441
+      Miles CTG font_146: -1305409560
+      Miles CTG font_95: -1040052446
+      Miles CTG font_121: 1651608109
+      Miles CTG font_90: 774007874
+      Miles CTG font_145: 814361987
+      Miles CTG font_72: -2078377811
+      Miles CTG font_138: 544160813
+      Miles CTG font_29: 166167485
+      Miles CTG font_77: 697809519
+      Miles CTG font_135: 615900436
+      Miles CTG font_122: 1232419570
+      Miles CTG font_70: 3510756
+      Miles CTG font_98: 1295236038
+      Miles CTG font_142: -663884271
+      Miles CTG font_136: -1786260107
+      Miles CTG font_63: 522817637
+      Miles CTG font_21: 1716364400
+      Miles CTG font_76: -900645504
+      Miles CTG font_48: 584285828
+      Miles CTG font_118: 1458096168
+      Miles CTG font_1: 689600530
+      Miles CTG font_44: -1089480605
+      Miles CTG font_108: -307946801
+      Miles CTG font_75: -1812516238
+      Miles CTG font_137: -1567558092
+      Miles CTG font_94: -877424856
+      Miles CTG font_69: -759119490
+      Miles CTG font_27: -1829091965
+      Miles CTG font_8: 1836419599
+      Miles CTG font_56: -882824569
+      Miles CTG font_68: -2047575445
+      Miles CTG font_103: 1313949850
+      Miles CTG font_133: 1008184428
+      Miles CTG font_141: -1252382508
+      Miles CTG font_3: 1906985378
+      Miles CTG font_47: 100980124
+      Miles CTG font_41: -1396643487
+      Miles CTG font_61: 1331076267
+      Miles CTG font_109: -490936234
+      Miles CTG font_51: -173668208
+      Miles CTG font_93: 556912465
+      Miles CTG font_114: 832620524
+      Miles CTG font_116: -1940145760
+      Miles CTG font_67: -141718706
+      Miles CTG font_144: 1394029674
+      Miles CTG font_87: -799938726
+      Miles CTG font_9: -1982215930
+      Miles CTG font_119: -682942309
+      Miles CTG font_12: 997368651
+      Miles CTG font_78: 828764142
+      Miles CTG font_143: -1604607366
+      Miles CTG font_26: 648885743
+      Miles CTG font_4: 1513292251
+      Miles CTG font_132: -1545822768
+      Miles CTG font_53: 2139673701
+      Miles CTG font_33: 132678253
+      Miles CTG font_107: 1880578172
+      Miles CTG font_80: -146526713
+      Miles CTG font_105: 953293876
+      Miles CTG font_45: 419727660
+      Miles CTG font_62: 1189561171
+      Miles CTG font_15: -1129710823
+      Miles CTG font_25: 934807061
+      Miles CTG font_42: -1249874580
+      Miles CTG font_22: -1865970552
+      Miles CTG font_32: 1306615522
+      Miles CTG font_126: 1234979054
+      Miles CTG font_19: -712671219
+      Miles CTG font_58: -924605988
+      Miles CTG font_60: 1700820292
+      Miles CTG font_66: 422116136
+      Miles CTG font_39: 923197292
+      Miles CTG font_65: -460609772
+      Miles CTG font_106: -1198360004
+      Miles CTG font_84: -1901133867
+      Miles CTG font_131: -1359233762
+      Miles CTG font_127: -529449769
+      Miles CTG font_14: 513197720
+      Miles CTG font_23: -667618799
+      Miles CTG font_64: -129354677
+      Miles CTG font_134: -2104372191
+      Miles CTG font_92: 1688304216
+      Miles CTG font_16: -1438124146
+      Miles CTG font_120: -1600144146
+      Miles CTG font_11: -1611565392
+      Miles CTG font_88: 957772608
+      Miles CTG font_46: -1450944747
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
