@@ -38,7 +38,7 @@ public class Interactable : MonoBehaviour
         }
     }
 
-    private void Start() {
+    protected void Start() {
         Interacter.interactables.Add(this);
     }
 
