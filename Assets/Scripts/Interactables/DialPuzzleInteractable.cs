@@ -6,41 +6,77 @@ using TMPro;
 
 public class DialPuzzleInteractable : PuzzleInteractable
 {
-    [SerializeField] List<List<string>> DialPositions;
-    [SerializeField] List<string> DialValues;
-    [SerializeField] DialButtons[] dials;
+    public string acceptableValues = "abcdefghijklmnopqrstuvwxyz123456789";
+    int selectedIndex;
+    [SerializeField] List<Dials> dials;
     [System.Serializable]
-    struct DialButtons
+    class Dials
     {
-        public Button up;
-        public Button down;
+        public TextMeshProUGUI text;
+        public int pos;
+        public List<char> entries;
+        public int entryCount;
+        public char correctEntry;
+        public char currentEntry;
+        public Animation animation;
     }
     // Start is called before the first frame update
     new void Start()
     {
         base.Start();
-        int index = 0;
-        foreach(DialButtons dbs in dials)
+        for (int i = 0; i < dials.Count; i++)
         {
-            dbs.down.onClick.AddListener(() => IncrementDialPosition(index, -1));
-            dbs.up.onClick.AddListener(() => IncrementDialPosition(index, -1));
-            index++;
+            var dbs = dials[i];
+            dbs.pos = 0;
+            dbs.entries = new List<char>();
+            for(int randomEntry = 0; randomEntry < dbs.entryCount; randomEntry++) {
+                char characterToInclude = ' ';
+                while(dbs.entries.Contains(characterToInclude) || characterToInclude == dbs.correctEntry || !acceptableValues.Contains(characterToInclude)) {
+                    characterToInclude = acceptableValues[Random.Range(0, acceptableValues.Length)];
+                }
+                dbs.entries.Add(characterToInclude); 
+            }
+            dbs.entries[Random.Range(0, dbs.entryCount)] = dbs.correctEntry;
+            dbs.currentEntry = dbs.entries[Random.Range(0, dbs.entryCount)];
+            dbs.text.text = dbs.currentEntry.ToString();
         }
     }
 
-    void IncrementDialPosition(int dial, int offset)
-    {
-        DialValues[dial] = DialPositions[dial][
-            DialPositions[dial].IndexOf(
-                DialValues[dial]
-            )
-            + offset
-        ];
+    private new void Update() {
+        base.Update();
+        if(focused) {
+            if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) {
+                selectedIndex -= 1;
+            }
+            if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) {
+                selectedIndex += 1;
+            }
+            if(selectedIndex < 0) {
+                selectedIndex = dials.Count;
+            }
+            if(selectedIndex >= dials.Count) {
+                selectedIndex = 0;
+            }
+            if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) {
+                IncrementDialPosition(selectedIndex, 1);
+            }
+            if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) {
+                IncrementDialPosition(selectedIndex, -1);
+            }
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void IncrementDialPosition(int dialIndex, int offset)
     {
-        
+        var dial = dials[dialIndex];
+        dial.pos += offset;
+        if(dial.pos >= dial.entryCount) {
+            dial.pos = 0;
+        }
+        else if(dial.pos < 0) {
+            dial.pos = dial.entryCount - 1;
+        }
+        dial.currentEntry = dial.entries[dial.pos];
+        dial.text.text = dial.currentEntry + "";
     }
 }

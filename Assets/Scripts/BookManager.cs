@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+[RequireComponent(typeof(AudioSource))]
 public class BookManager : MonoBehaviour
 {
     [System.Serializable]
@@ -32,6 +33,7 @@ public class BookManager : MonoBehaviour
         SetButtonActivity();
     }
     public void IncrementPage(int value) {
+        GetComponent<AudioSource>().PlayOneShot(Resources.Load<AudioClip>("Sound/pageFlip"));
         SetPage(page + value);
     }
 

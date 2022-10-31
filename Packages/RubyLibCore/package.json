@@ -1,0 +1,9 @@
+{
+  "name": "com.rubyboat.rubylib-core",
+  "version": "1.0.0",
+  "displayName": "RubyLib Core",
+  "description": "Adds features that I would enjoy in my games, so I dont have to add them ever again",
+  "dependencies": {
+    "com.unity.textmeshpro": ""
+  }
+}

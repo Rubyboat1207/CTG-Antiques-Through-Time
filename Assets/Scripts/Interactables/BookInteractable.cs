@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // TODO: Switch to toggleable for when the completion is done
+[RequireComponent(typeof(AudioSource))]
 public class BookInteractable : Interactable
 {
     public BookManager.Page[] pages;
@@ -18,6 +19,7 @@ public class BookInteractable : Interactable
             activeBM = GameObject.Instantiate(Resources.Load<GameObject>("Prefabs/BaseBook"), GameObject.Find("Canvas").transform).GetComponent<BookManager>();
             activeBM.pages = pages;
             activeBM.page = page;
+            GetComponent<AudioSource>().PlayOneShot(Resources.Load<AudioClip>("Sound/pageFlip"));
         }
     }
 
