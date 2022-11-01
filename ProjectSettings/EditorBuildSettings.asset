@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Library.unity
+    guid: fdaf93dd38c2e024cbf658ea5860d7bf
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene.unity
+    guid: b0cf46a69ffa72d4d90cd2851a75f1b0
+  - enabled: 1
+    path: Assets/Scenes/Aztec.unity
+    guid: f55501fca03767842b60e53b71360f86
+  - enabled: 1
+    path: Assets/Scenes/AnimationTest.unity
+    guid: a213d80496893674fa37b7ade556ae15
   m_configObjects: {}
