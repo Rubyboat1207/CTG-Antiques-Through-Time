@@ -46,29 +46,8 @@ public class ConInp : MonoBehaviour
         List<string> strList = new List<string>(args);
         strList.RemoveAt(0);
         var val = string.Join(" ", strList);
-        
-        
-        dynamic interpreted = ConUtils.InterpretFromString(val, ConVar.Type);
-        
 
-        /*float Floatval;
-        try {
-            if(args.Length > 2 || !float.TryParse(args[1], out Floatval)) {
-                List<string> strList = new List<string>(args);
-                strList.RemoveAt(0);
-                var val = string.Join(" ", strList);
-                val = val.Replace("\"", "");
-                TypedConVar<string>.setConVarValue(args[0], val);
-                ConOut.Singleton.write(args[0] + " was set to " + ((TypedConVar<string>) RTConsole.Singleton.GetConVar(args[0])).value);
-            }
-            else {
-                TypedConVar<float>.setConVarValue(args[0], Floatval);
-                ConOut.Singleton.write(args[0] + " was set to " + ((TypedConVar<float>) RTConsole.Singleton.GetConVar(args[0])).value.ToString());
-            }
-        }catch {
-            ConOut.Singleton.write(args[0] + " was invalid");
-        }*/
-        
+        ConUtils.InterpretFromString(val, ConVar.Type, ConVar);
     }
 
     void runConFunc(string input) {

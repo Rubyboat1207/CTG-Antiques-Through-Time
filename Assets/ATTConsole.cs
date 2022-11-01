@@ -20,12 +20,12 @@ public class ATTConsole : MonoBehaviour
     {
         Instance = this;
         setVisibility(visible);
-        TypedConVar<float>.RegisterConVar("pl_model", 0);
+        TypedConVar<int>.RegisterConVar("pl_model", 0);
         RTConsole.Singleton.ConFuncs.Add("noclip", (name) => {
             noclip = !noclip;
             PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;
         });
-        TypedConVar<float>.RegisterConVar("mapid", 0);
+        TypedConVar<int>.RegisterConVar("mapid", 0);
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class ATTConsole : MonoBehaviour
             print(visible);
             setVisibility(visible);
         }
-        if(SceneManager.GetActiveScene().buildIndex != RTConsole.Singleton.GetConVar<float>("mapid").value) {
+        if(SceneManager.GetActiveScene().buildIndex != RTConsole.Singleton.GetConVar<int>("mapid").value) {
             SceneManager.LoadScene(RTConsole.Singleton.GetConVar<int>("mapid").value);
         }
     }

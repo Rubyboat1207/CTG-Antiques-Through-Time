@@ -103,7 +103,7 @@ public class TypedConVar<T> : ConVar
         }else{
             RTConsole.Singleton.ConVars.Add(name, new TypedConVar<T>(name, defaultValue));
             RTConsole.Singleton.ConFuncs.Add(name, (name) => {
-                ConOut.Singleton.write((RTConsole.Singleton.GetConVar<T>(name)).value.ToString());
+                ConOut.Singleton.write(name + ": " + (RTConsole.Singleton.GetConVar<T>(name)).value.ToString());
             });
         }
     }
