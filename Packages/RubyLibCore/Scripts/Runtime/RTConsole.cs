@@ -11,9 +11,7 @@ public class RTConsole : MonoBehaviour
     KeyCode consoleAppear = KeyCode.Tilde;
     bool visible = false;
 
-    public Dictionary<string, TypedConVar<string>> StringConVars = new Dictionary<string, TypedConVar<string>>();
-    public Dictionary<string, TypedConVar<float>> FloatConVars = new Dictionary<string, TypedConVar<float>>();
-
+    public Dictionary<string, ConVar> ConVars = new Dictionary<string, ConVar>();
     public Dictionary<string, Action<string>> ConFuncs = new Dictionary<string, Action<string>>();
 
     static RTConsole singleton;
@@ -51,19 +49,40 @@ public class RTConsole : MonoBehaviour
         Singleton = this;
     }
 
+    public TypedConVar<T> GetConVar<T>(string name)
+    {
+        if(ConVars.ContainsKey(name)) {
+            if(ConVars[name].Type == typeof(T)) {
+                return (TypedConVar<T>) ConVars[name];
+            }else{
+                throw new ArgumentException($"ConVar \"{name}\" was not of type specified \"{typeof(T).Name}\"");
+            }
+        }else{
+            throw new ArgumentException($"ConVar \"{name}\" is not registered");
+        }
+    }
+
     public ConVar GetConVar(string name)
     {
-        if(StringConVars.ContainsKey(name)) {
-            return StringConVars[name];
-        }else if(FloatConVars.ContainsKey(name)){
-            return FloatConVars[name];
+        if(ConVars.ContainsKey(name)) {
+            return ConVars[name];
         }else{
-            throw new ArgumentException("Name for conVar was not registered in either StringConVars or FloatConVars.");
+            throw new ArgumentException($"ConVar \"{name}\" is not registered");
         }
     }
 }
-public interface ConVar {
+public class ConVar {
+    protected readonly Type type;
 
+    protected ConVar(Type type) {
+        this.type = type;
+    }
+
+    public Type Type {
+        get {
+            return type;
+        }
+    }
 }
 
 public class TypedConVar<T> : ConVar
@@ -71,7 +90,7 @@ public class TypedConVar<T> : ConVar
     public string name;
     public T value;
 
-    public TypedConVar(string name, T value)
+    public TypedConVar(string name, T value) : base(typeof(T))
     {
         this.value = value;
         this.name = name;
@@ -79,42 +98,22 @@ public class TypedConVar<T> : ConVar
 
     public static void RegisterConVar(string name, T defaultValue)
     {
-        if(typeof(T) == typeof(string)) {
-            if(RTConsole.Singleton.StringConVars.ContainsKey(name)) {
-                throw new ArgumentException(name + " is already a ConVar");
-            }else{
-                RTConsole.Singleton.StringConVars.Add(name, new TypedConVar<string>(name, Convert.ToString(defaultValue)));
-                RTConsole.Singleton.ConFuncs.Add(name, (name) => {ConOut.Singleton.write(((TypedConVar<string>) RTConsole.Singleton.GetConVar(name)).value);});
-            }
-        }else if(typeof(T) == typeof(float)) {
-            if(RTConsole.Singleton.FloatConVars.ContainsKey(name)) {
-                throw new ArgumentException(name + " is already a ConVar");
-            }else{
-                RTConsole.Singleton.FloatConVars.Add(name, new TypedConVar<float>(name, (float) Convert.ChangeType(defaultValue, typeof(float))));
-                RTConsole.Singleton.ConFuncs.Add(name, (name) => {ConOut.Singleton.write(((TypedConVar<float>) RTConsole.Singleton.GetConVar(name)).value.ToString());});
-            }
-        }else {
-            throw new ArgumentException("ConVar type to set was not float or string.");
+        if(RTConsole.Singleton.ConVars.ContainsKey(name)) {
+            throw new ArgumentException(name + " is already a ConVar");
+        }else{
+            RTConsole.Singleton.ConVars.Add(name, new TypedConVar<T>(name, defaultValue));
+            RTConsole.Singleton.ConFuncs.Add(name, (name) => {
+                ConOut.Singleton.write((RTConsole.Singleton.GetConVar<T>(name)).value.ToString());
+            });
         }
-
-        
     }
 
     public static void setConVarValue(string name, T value) {
-        if(typeof(T) == typeof(string)) {
-            if(RTConsole.Singleton.StringConVars.ContainsKey(name)) {
-                RTConsole.Singleton.StringConVars[name].value = Convert.ToString(value);
-            }else{
-                throw new ArgumentException(name + " was not found");
-            }
-        }else if(typeof(T) == typeof(float)) {
-            if(RTConsole.Singleton.FloatConVars.ContainsKey(name)) {
-                RTConsole.Singleton.FloatConVars[name].value = (float) Convert.ChangeType(value, typeof(float));
-            }else{
-                throw new ArgumentException(name + " was not found");
-            }
-        }else {
-            throw new ArgumentException("ConVar type to set was not float or string.");
+        if(RTConsole.Singleton.ConVars.ContainsKey(name)) {
+            RTConsole.Singleton.GetConVar<T>(name).value = value;
+        }else{
+            throw new ArgumentException(name + " was not found");
         }
+        
     }
 }

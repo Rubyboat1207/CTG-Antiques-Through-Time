@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     public static PlayerMove Instance;
+    public bool SimplePlayerMove;
 
     // [SerializeField] means it shows up in the editor, even if its private
     public float speed = 5;
@@ -50,8 +51,14 @@ public class PlayerMove : MonoBehaviour
             // use our speed variable
             Vector3 finalVector = frameAdjustedMovement * speed;
 
-            // Move the character by the vector
-            cc.Move(finalVector);
+            if(SimplePlayerMove) {
+                finalVector.y = ((Input.GetKey(KeyCode.Space) ? 1 : 0) - (Input.GetKey(KeyCode.LeftShift) ? 1 : 0)) * Time.deltaTime * speed;
+                transform.Translate(finalVector);
+            }else{
+                // Move the character by the vector
+                cc.Move(finalVector);
+            }
+            
         }
     }
 }

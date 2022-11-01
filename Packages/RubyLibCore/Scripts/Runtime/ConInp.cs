@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -41,7 +42,16 @@ public class ConInp : MonoBehaviour
 
     void setConVar(string input) {
         var args = input.Split(' ');
-        float Floatval;
+        ConVar ConVar = RTConsole.Singleton.GetConVar(args[0]);
+        List<string> strList = new List<string>(args);
+        strList.RemoveAt(0);
+        var val = string.Join(" ", strList);
+        
+        
+        dynamic interpreted = ConUtils.InterpretFromString(val, ConVar.Type);
+        
+
+        /*float Floatval;
         try {
             if(args.Length > 2 || !float.TryParse(args[1], out Floatval)) {
                 List<string> strList = new List<string>(args);
@@ -57,7 +67,7 @@ public class ConInp : MonoBehaviour
             }
         }catch {
             ConOut.Singleton.write(args[0] + " was invalid");
-        }
+        }*/
         
     }
 
