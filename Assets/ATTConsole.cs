@@ -21,6 +21,7 @@ public class ATTConsole : MonoBehaviour
         Instance = this;
         setVisibility(visible);
         TypedConVar<int>.RegisterConVar("pl_model", 0);
+        TypedConVar<bool>.RegisterConVar("sv_cheats", false);
         RTConsole.Singleton.ConFuncs.Add("noclip", (name) => {
             noclip = !noclip;
             PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;
@@ -36,8 +37,8 @@ public class ATTConsole : MonoBehaviour
             print(visible);
             setVisibility(visible);
         }
-        if(SceneManager.GetActiveScene().buildIndex != RTConsole.Singleton.GetConVar<int>("mapid").value) {
-            SceneManager.LoadScene(RTConsole.Singleton.GetConVar<int>("mapid").value);
+        if(SceneManager.GetActiveScene().buildIndex != RTConsole.Singleton.GetConVar<int>("mapid").Value) {
+            SceneManager.LoadScene(RTConsole.Singleton.GetConVar<int>("mapid").Value);
         }
     }
 
@@ -54,5 +55,6 @@ public class ATTConsole : MonoBehaviour
         foreach(TMP_InputField input in transform.GetComponentsInChildren<TMP_InputField>()) {
             input.enabled = visibility;
         }
+        transform.position += new Vector3(0, visibility ? -10000 : 10000);
     }
 }

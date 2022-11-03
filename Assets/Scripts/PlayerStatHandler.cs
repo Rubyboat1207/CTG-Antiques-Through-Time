@@ -31,7 +31,7 @@ public class PlayerStatHandler : MonoBehaviour
         if(GetComponent<Animator>().GetInteger("Player") != ((int)type)) {
             LoadStat(stats[((int)type)]);
         }
-        type = (PlayerType) RTConsole.Singleton.GetConVar<int>("pl_model").value;
+        type = (PlayerType) RTConsole.Singleton.GetConVar<int>("pl_model").Value;
     }
     
 

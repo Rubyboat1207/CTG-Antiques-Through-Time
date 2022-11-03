@@ -350,7 +350,7 @@ PrefabInstance:
     - target: {fileID: 6919182659142867355, guid: 04c623fa4bbccbb439f1ad6ca7a45e8c,
         type: 3}
       propertyPath: m_Name
-      value: Canvas (1)
+      value: Console
       objectReference: {fileID: 0}
     - target: {fileID: 6919182659142867359, guid: 04c623fa4bbccbb439f1ad6ca7a45e8c,
         type: 3}

@@ -88,7 +88,15 @@ public class ConVar {
 public class TypedConVar<T> : ConVar
 {
     public string name;
+
     public T value;
+    public T Value { get { return value; }
+        set
+        {
+            this.value = value;
+            ConOut.Singleton.write(name + " was set to: " + this.value);
+        }
+    }
 
     public TypedConVar(string name, T value) : base(typeof(T))
     {
@@ -103,14 +111,14 @@ public class TypedConVar<T> : ConVar
         }else{
             RTConsole.Singleton.ConVars.Add(name, new TypedConVar<T>(name, defaultValue));
             RTConsole.Singleton.ConFuncs.Add(name, (name) => {
-                ConOut.Singleton.write(name + ": " + (RTConsole.Singleton.GetConVar<T>(name)).value.ToString());
+                ConOut.Singleton.write(name + ": " + (RTConsole.Singleton.GetConVar<T>(name)).Value.ToString());
             });
         }
     }
 
     public static void setConVarValue(string name, T value) {
         if(RTConsole.Singleton.ConVars.ContainsKey(name)) {
-            RTConsole.Singleton.GetConVar<T>(name).value = value;
+            RTConsole.Singleton.GetConVar<T>(name).Value = value;
         }else{
             throw new ArgumentException(name + " was not found");
         }

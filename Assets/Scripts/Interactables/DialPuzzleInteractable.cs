@@ -6,6 +6,7 @@ using TMPro;
 
 public class DialPuzzleInteractable : PuzzleInteractable
 {
+    [Header("Dial Puzzle Interactable")]
     public string acceptableValues = "abcdefghijklmnopqrstuvwxyz123456789";
     int selectedIndex;
     [SerializeField] List<Dials> dials;
@@ -42,27 +43,32 @@ public class DialPuzzleInteractable : PuzzleInteractable
         }
     }
 
-    private new void Update() {
-        base.Update();
-        if(focused) {
-            if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) {
-                selectedIndex -= 1;
-            }
-            if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) {
-                selectedIndex += 1;
-            }
-            if(selectedIndex < 0) {
-                selectedIndex = dials.Count;
-            }
-            if(selectedIndex >= dials.Count) {
-                selectedIndex = 0;
-            }
-            if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) {
-                IncrementDialPosition(selectedIndex, 1);
-            }
-            if(Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) {
-                IncrementDialPosition(selectedIndex, -1);
-            }
+    public override void WhilePuzzleOpen()
+    {
+        base.WhilePuzzleOpen();
+        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            selectedIndex -= 1;
+        }
+        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            selectedIndex += 1;
+        }
+        if (selectedIndex < 0)
+        {
+            selectedIndex = dials.Count;
+        }
+        if (selectedIndex >= dials.Count)
+        {
+            selectedIndex = 0;
+        }
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            IncrementDialPosition(selectedIndex, 1);
+        }
+        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            IncrementDialPosition(selectedIndex, -1);
         }
     }
 

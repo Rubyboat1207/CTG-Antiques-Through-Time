@@ -58,12 +58,17 @@ public class PuzzleInteractable : ToggleableInteractable
         base.Update();
         if(focused)
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                isInteractable = true;
-                focused = false;
-                OnClosePuzzle();
-            }
+            WhilePuzzleOpen();
+        }
+    }
+
+    public virtual void WhilePuzzleOpen()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            isInteractable = true;
+            focused = false;
+            OnClosePuzzle();
         }
     }
 
