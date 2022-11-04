@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Interactable : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Interactable : MonoBehaviour
     public float extraInteractDistance = 0;
 
     GameObject InteractEffectInstance;
+
+    public UnityEvent onInteracted = new UnityEvent();
 
     // Update is called once per frame
     protected void Update()
@@ -44,6 +47,7 @@ public class Interactable : MonoBehaviour
 
     public virtual void Interact()
     {
+        onInteracted.Invoke();
         print("Interacted with: " + gameObject.name); 
     }
 

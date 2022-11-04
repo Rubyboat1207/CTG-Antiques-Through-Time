@@ -271,6 +271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParticleOffset: {x: -0.2, y: -0.4, z: -0.5}
   extraInteractDistance: 0
+  onInteracted:
+    m_PersistentCalls:
+      m_Calls: []
   isInteractable: 1
   LookPos: {fileID: 5058379880203409298}
   Offset: {x: 0, y: 0.11, z: -1.71}
@@ -662,7 +665,7 @@ GameObject:
   - component: {fileID: 5058379880168499826}
   - component: {fileID: 5058379880168499837}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: DialValues
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

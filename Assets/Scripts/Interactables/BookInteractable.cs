@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(AudioSource))]
 public class BookInteractable : Interactable
 {
+    [Header("Book Interactable")]
     public BookManager.Page[] pages;
     public BookManager activeBM;
     public int page = 0;
