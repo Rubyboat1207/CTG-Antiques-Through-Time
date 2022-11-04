@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using TMPro;
 
@@ -10,6 +11,12 @@ public class DialPuzzleInteractable : PuzzleInteractable
     public string acceptableValues = "abcdefghijklmnopqrstuvwxyz123456789";
     int selectedIndex;
     [SerializeField] List<Dials> dials;
+
+    [SerializeField] Light CorrectLight;
+
+    [SerializeField] Color CorrectColor;
+    [SerializeField] Color IncorrectColor;
+
     [System.Serializable]
     class Dials
     {
@@ -43,6 +50,21 @@ public class DialPuzzleInteractable : PuzzleInteractable
         }
     }
 
+    public override void OnClosePuzzle()
+    {
+        base.OnClosePuzzle();
+        if(correctDials())
+        {
+            isInteractable = false;
+            CorrectLight.color = CorrectColor;
+        }
+        else
+        {
+            CorrectLight.color = IncorrectColor;
+        }
+        OnPuzzleExit.Invoke(correctDials());
+    }
+
     public override void WhilePuzzleOpen()
     {
         base.WhilePuzzleOpen();
@@ -56,7 +78,7 @@ public class DialPuzzleInteractable : PuzzleInteractable
         }
         if (selectedIndex < 0)
         {
-            selectedIndex = dials.Count;
+            selectedIndex = dials.Count - 1;
         }
         if (selectedIndex >= dials.Count)
         {
@@ -84,5 +106,19 @@ public class DialPuzzleInteractable : PuzzleInteractable
         }
         dial.currentEntry = dial.entries[dial.pos];
         dial.text.text = dial.currentEntry + "";
+    }
+
+
+
+    public bool correctDials()
+    {
+        foreach(var dial in dials)
+        {
+            if(dial.currentEntry != dial.correctEntry)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 }
