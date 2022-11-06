@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System;
 using System.Reflection;
 
@@ -48,6 +49,12 @@ public class RTConsole : MonoBehaviour
     {
         Singleton = this;
     }
+
+
+    void OnSceneLoaded() {
+
+    }
+    
 
     public TypedConVar<T> GetConVar<T>(string name)
     {

@@ -27,7 +27,7 @@ public class ATTConsole : MonoBehaviour
             noclip = !noclip;
             PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;
         });
-        TypedConVar<int>.RegisterConVar("mapid", 4);
+        TypedConVar<int>.RegisterConVar("mapid", 0);
     }
 
     // Update is called once per frame
