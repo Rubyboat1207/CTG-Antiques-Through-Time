@@ -11,10 +11,6 @@ public class ATTConsole : MonoBehaviour
     bool visible = false;
     public bool noclip = false;
 
-    void Awake() {
-        DontDestroyOnLoad(transform.root.gameObject);
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +18,7 @@ public class ATTConsole : MonoBehaviour
         setVisibility(visible);
         TypedConVar<int>.RegisterConVar("pl_model", 0);
         TypedConVar<bool>.RegisterConVar("sv_cheats", false);
-        RTConsole.Singleton.ConFuncs.Add("noclip", (name) => {
+        PersistantDataHolder.Instance.ConFuncs.Add("noclip", (name) => {
             if(RTConsole.Singleton)
             noclip = !noclip;
             PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;

@@ -52,8 +52,8 @@ public class ConInp : MonoBehaviour
 
     void runConFunc(string input) {
         try {
-            if(RTConsole.Singleton.ConFuncs.ContainsKey(input)) {
-                RTConsole.Singleton.ConFuncs[input].Invoke(input);
+            if(PersistantDataHolder.Instance.ConFuncs.ContainsKey(input)) {
+                PersistantDataHolder.Instance.ConFuncs[input].Invoke(input);
             }else {
                 ConOut.Singleton.write("function " + input + " was not found");
             }

@@ -12,9 +12,6 @@ public class RTConsole : MonoBehaviour
     KeyCode consoleAppear = KeyCode.Tilde;
     bool visible = false;
 
-    public Dictionary<string, ConVar> ConVars = new Dictionary<string, ConVar>();
-    public Dictionary<string, Action<string>> ConFuncs = new Dictionary<string, Action<string>>();
-
     static RTConsole singleton;
     public static RTConsole Singleton {
         get {
@@ -44,23 +41,23 @@ public class RTConsole : MonoBehaviour
             }
         }
     }
-    bool noclip = false;
     private void Awake()
     {
         Singleton = this;
-    }
-
-
-    void OnSceneLoaded() {
-
+        if(PersistantDataHolder.Instance == null)
+        {
+            var pdh = new GameObject();
+            pdh.AddComponent<PersistantDataHolder>().Initalize();
+            pdh.name = "PersistantDataHolder";
+            DontDestroyOnLoad(pdh);
+        }
     }
     
-
     public TypedConVar<T> GetConVar<T>(string name)
     {
-        if(ConVars.ContainsKey(name)) {
-            if(ConVars[name].Type == typeof(T)) {
-                return (TypedConVar<T>) ConVars[name];
+        if(PersistantDataHolder.Instance.ConVars.ContainsKey(name)) {
+            if(PersistantDataHolder.Instance.ConVars[name].Type == typeof(T)) {
+                return (TypedConVar<T>)PersistantDataHolder.Instance.ConVars[name];
             }else{
                 throw new ArgumentException($"ConVar \"{name}\" was not of type specified \"{typeof(T).Name}\"");
             }
@@ -71,8 +68,8 @@ public class RTConsole : MonoBehaviour
 
     public ConVar GetConVar(string name)
     {
-        if(ConVars.ContainsKey(name)) {
-            return ConVars[name];
+        if(PersistantDataHolder.Instance.ConVars.ContainsKey(name)) {
+            return PersistantDataHolder.Instance.ConVars[name];
         }else{
             throw new ArgumentException($"ConVar \"{name}\" is not registered");
         }
@@ -113,18 +110,18 @@ public class TypedConVar<T> : ConVar
 
     public static void RegisterConVar(string name, T defaultValue)
     {
-        if(RTConsole.Singleton.ConVars.ContainsKey(name)) {
+        if(PersistantDataHolder.Instance.ConVars.ContainsKey(name)) {
             throw new ArgumentException(name + " is already a ConVar");
         }else{
-            RTConsole.Singleton.ConVars.Add(name, new TypedConVar<T>(name, defaultValue));
-            RTConsole.Singleton.ConFuncs.Add(name, (name) => {
+            PersistantDataHolder.Instance.ConVars.Add(name, new TypedConVar<T>(name, defaultValue));
+            PersistantDataHolder.Instance.ConFuncs.Add(name, (name) => {
                 ConOut.Singleton.write(name + ": " + (RTConsole.Singleton.GetConVar<T>(name)).Value.ToString());
             });
         }
     }
 
     public static void setConVarValue(string name, T value) {
-        if(RTConsole.Singleton.ConVars.ContainsKey(name)) {
+        if(PersistantDataHolder.Instance.ConVars.ContainsKey(name)) {
             RTConsole.Singleton.GetConVar<T>(name).Value = value;
         }else{
             throw new ArgumentException(name + " was not found");
