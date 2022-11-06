@@ -70,7 +70,6 @@ public class PuzzleInteractable : ToggleableInteractable
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            
             OnClosePuzzle();
         }
     }

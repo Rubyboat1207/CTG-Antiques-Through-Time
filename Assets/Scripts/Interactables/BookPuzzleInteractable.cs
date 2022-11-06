@@ -6,6 +6,9 @@ public class BookPuzzleInteractable : PuzzleInteractable
 {
     public int progress;
     public List<SelectableBook> Books = new List<SelectableBook>();
+    public Light CorrectLight;
+    [SerializeField] Color CorrectColor;
+    [SerializeField] Color IncorrectColor;
 
     public override void WhilePuzzleOpen()
     {
@@ -26,6 +29,16 @@ public class BookPuzzleInteractable : PuzzleInteractable
         else
         {
             ClearPuzzle();
+        }
+
+        if(allBooksCorrect())
+        {
+            isInteractable = false;
+            CorrectLight.color = CorrectColor;
+        }
+        else
+        {
+            CorrectLight.color = IncorrectColor;
         }
     }
 
@@ -55,6 +68,4 @@ public class BookPuzzleInteractable : PuzzleInteractable
         }
         return true;
     }
-
-    
 }

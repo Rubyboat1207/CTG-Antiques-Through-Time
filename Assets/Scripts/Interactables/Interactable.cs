@@ -63,6 +63,7 @@ public class Interactable : MonoBehaviour
         );
         //Move the particle
         InteractEffectInstance.transform.localPosition = Vector3.zero + ParticleOffset;
+        InteractEffectInstance.transform.rotation = Quaternion.Euler(Vector3.up);
     }
 
     public virtual bool isTargetable() {

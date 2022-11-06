@@ -10,15 +10,18 @@ public class DialPuzzleInteractable : PuzzleInteractable
     [Header("Dial Puzzle Interactable")]
     public string acceptableValues = "abcdefghijklmnopqrstuvwxyz123456789";
     int selectedIndex;
-    [SerializeField] List<Dials> dials;
+    [SerializeField] List<Dial> dials;
 
     [SerializeField] Light CorrectLight;
 
     [SerializeField] Color CorrectColor;
     [SerializeField] Color IncorrectColor;
 
+    [SerializeField] Color defaultColor;
+    [SerializeField] Color SelectedColor;
+
     [System.Serializable]
-    class Dials
+    class Dial
     {
         public TextMeshProUGUI text;
         public int pos;
@@ -26,7 +29,7 @@ public class DialPuzzleInteractable : PuzzleInteractable
         public int entryCount;
         public char correctEntry;
         public char currentEntry;
-        public Animation animation;
+        public GameObject go;
     }
     // Start is called before the first frame update
     new void Start()
@@ -62,12 +65,21 @@ public class DialPuzzleInteractable : PuzzleInteractable
         {
             CorrectLight.color = IncorrectColor;
         }
+        foreach(Dial dial in dials) {
+            dial.text.color = defaultColor;
+        }
         OnPuzzleExit.Invoke(correctDials());
     }
 
     public override void WhilePuzzleOpen()
     {
         base.WhilePuzzleOpen();
+        int index = 0;
+        foreach(Dial dial in dials) {
+            dial.text.color = index == selectedIndex ? SelectedColor : defaultColor;
+            index++;
+        }
+
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             selectedIndex -= 1;
@@ -92,6 +104,7 @@ public class DialPuzzleInteractable : PuzzleInteractable
         {
             IncrementDialPosition(selectedIndex, -1);
         }
+
     }
 
     void IncrementDialPosition(int dialIndex, int offset)
