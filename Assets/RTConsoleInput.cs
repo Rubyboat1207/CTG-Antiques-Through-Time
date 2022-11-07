@@ -47,12 +47,8 @@ public class RTConsoleInput : MonoBehaviour
             }
             if (Input.GetKeyDown(KeyCode.C))
             {
-                GUIUtility.systemCopyBuffer = text.Substring(Mathf.Min(SelectedArea.x, SelectedArea.y), Mathf.Max(SelectedArea.x, SelectedArea.y));
-            }
-            if (Input.GetKeyDown(KeyCode.X))
-            {
-                GUIUtility.systemCopyBuffer = text.Substring(Mathf.Min(SelectedArea.x, SelectedArea.y), Mathf.Max(SelectedArea.x, SelectedArea.y));
-                DeleteSelection();
+                string copytext = text.Substring(Mathf.Min(SelectedArea.x, SelectedArea.y), Mathf.Max(SelectedArea.x, SelectedArea.y));
+                GUIUtility.systemCopyBuffer = copytext;
             }
 
         }
@@ -72,7 +68,7 @@ public class RTConsoleInput : MonoBehaviour
             if (!Input.GetKey(KeyCode.LeftShift))
             {
                 SelectedArea.x--;
-                SelectedArea.y = SelectedArea.x;
+                SelectedArea.x = SelectedArea.y;
             }
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
@@ -107,7 +103,7 @@ public class RTConsoleInput : MonoBehaviour
         SelectedArea.y = Mathf.Clamp(SelectedArea.y, 0, text.Length);
         placeholder.enabled = text.Length == 0;
         
-        visText.text = text.Insert(Mathf.Min(SelectedArea.x, SelectedArea.y), "<mark=#75ff7599>").Insert(Mathf.Max(SelectedArea.x, SelectedArea.y) + "<<mark=numbers>>".Length, "</mark>");
+        visText.text = text.Insert(Mathf.Min(SelectedArea.x, SelectedArea.y), "|").Insert(Mathf.Min(SelectedArea.x, SelectedArea.y) + 1, "<mark=#75ff7599>").Insert(Mathf.Max(SelectedArea.x, SelectedArea.y) + "<<mark=numbers>> ".Length, "</mark>");
     }
 
     public void DeleteSelection()
