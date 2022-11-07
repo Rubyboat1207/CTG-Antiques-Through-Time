@@ -12,7 +12,7 @@ public class PuzzleInteractable : ToggleableInteractable
     Vector3 OldOffset;
     public Vector3 Offset;
     public bool focused;
-    public UnityEvent<bool> OnPuzzleExit = new UnityEvent<bool>();
+    public UnityEvent<bool, GameObject> OnPuzzleExit = new UnityEvent<bool, GameObject>();
 
     public override void Interact()
     {
@@ -54,7 +54,7 @@ public class PuzzleInteractable : ToggleableInteractable
     }
 
     public virtual void OnPuzzleComplete() {
-        OnPuzzleExit.Invoke(true);
+        OnPuzzleExit.Invoke(true, gameObject);
     }
 
     public new void Update()

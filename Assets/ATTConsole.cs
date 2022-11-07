@@ -7,6 +7,7 @@ using TMPro;
 
 public class ATTConsole : MonoBehaviour
 {
+    static bool registered = false;
     static ATTConsole Instance;
     bool visible = false;
     public bool noclip = false;
@@ -16,14 +17,19 @@ public class ATTConsole : MonoBehaviour
     {
         Instance = this;
         setVisibility(visible);
-        TypedConVar<int>.RegisterConVar("pl_model", 0);
-        TypedConVar<bool>.RegisterConVar("sv_cheats", false);
-        PersistantDataHolder.Instance.ConFuncs.Add("noclip", (name) => {
-            if(RTConsole.Singleton)
-            noclip = !noclip;
-            PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;
-        });
-        TypedConVar<int>.RegisterConVar("mapid", 0);
+        if(!registered)
+        {
+            TypedConVar<int>.RegisterConVar("pl_model", 0);
+            TypedConVar<bool>.RegisterConVar("sv_cheats", false);
+            PersistantDataHolder.Instance.ConFuncs.Add("noclip", (name) => {
+                if (RTConsole.Singleton)
+                    noclip = !noclip;
+                PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;
+            });
+            TypedConVar<int>.RegisterConVar("mapid", 0);
+            registered = true;
+        }
+        
     }
 
     // Update is called once per frame
@@ -49,7 +55,12 @@ public class ATTConsole : MonoBehaviour
             tmpro.enabled = visibility;
             tmpro.color = visibility ? new Color(1,1,1,1) : new Color(0,0,0,0);
         }
-        foreach(TMP_InputField input in transform.GetComponentsInChildren<TMP_InputField>()) {
+        foreach (TMP_InputField input in transform.GetComponentsInChildren<TMP_InputField>())
+        {
+            input.enabled = visibility;
+        }
+        foreach (RTConsoleInput input in transform.GetComponentsInChildren<RTConsoleInput>())
+        {
             input.enabled = visibility;
         }
         transform.position += new Vector3(0, visibility ? -10000 : 10000);

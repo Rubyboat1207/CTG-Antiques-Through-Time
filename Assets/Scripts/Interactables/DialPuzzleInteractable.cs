@@ -68,7 +68,7 @@ public class DialPuzzleInteractable : PuzzleInteractable
         foreach(Dial dial in dials) {
             dial.text.color = defaultColor;
         }
-        OnPuzzleExit.Invoke(correctDials());
+        OnPuzzleExit.Invoke(correctDials(), gameObject);
     }
 
     public override void WhilePuzzleOpen()
