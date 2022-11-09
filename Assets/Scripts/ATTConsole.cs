@@ -19,7 +19,7 @@ public class ATTConsole : MonoBehaviour
         setVisibility(visible);
         if(!registered)
         {
-            TypedConVar<int>.RegisterConVar("pl_model", 1);
+            TypedConVar<int>.RegisterConVar("pl_model", 0);
             TypedConVar<bool>.RegisterConVar("sv_cheats", false);
             PersistantDataHolder.Instance.ConFuncs.Add("noclip", (name) => {
                 if (RTConsole.Singleton)

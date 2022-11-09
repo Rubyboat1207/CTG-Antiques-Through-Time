@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Aztec.unity
     guid: f55501fca03767842b60e53b71360f86
   - enabled: 1
+    path: Assets/Scenes/China.unity
+    guid: 0ed67760a4e34e94aa50de79ea7e4e3b
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
