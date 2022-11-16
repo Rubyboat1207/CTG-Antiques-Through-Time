@@ -1,0 +1,672 @@
+fileFormatVersion: 2
+guid: d831acdb07616da4aa9f82c5a579b38e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_0
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 936
+        width: 304
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9678e4b45a9f73d41a8a6aa5a121ea47
+      internalID: -160473785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_1
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 644
+        width: 306
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832bc0992deab2d4e97f9bb5e4c3d7ef
+      internalID: 1012320546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_2
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 603
+        width: 375
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914af28b3d19d3f4ca138160bd7d3ef3
+      internalID: 379249617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_3
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 803
+        width: 436
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc74187b9870a64e8a014b52cb7c429
+      internalID: 1267332584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_4
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 816
+        width: 265
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503aa40879b2ca1438674a6aaf2ca07b
+      internalID: -1064164285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_5
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 707
+        width: 268
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ab772afe7ab9db48817905110b41e65
+      internalID: -1995718726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_6
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 764
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5442194d83e054bb3c40e7dee11f1e
+      internalID: 1823618250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 340
+        width: 587
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2574dbb7c4c9f9647a71d3ca08cd57de
+      internalID: 1973932021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_8
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 568
+        width: 162
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1298c3fba155c645b9f7d37cafe38a0
+      internalID: -1283452353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_9
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 273
+        width: 268
+        height: 451
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409f2c0a2c4c4de41aa2ab042305b7a4
+      internalID: -1564111903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_10
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 435
+        width: 53
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a9368456b99c74bacfbf87d5c6ad7b
+      internalID: 211975735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_11
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 267
+        width: 345
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e256986b4976e54cb00ac5c8a0889d5
+      internalID: -1432859547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_12
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 460
+        width: 149
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e519516af05cdcf48a6c64b87f49ed0f
+      internalID: 1231673358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_13
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 256
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7c879d72640bc4599e86d358a32b91
+      internalID: -1205529031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_14
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 253
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae740d4f8800714dbf3fdc0f85f6d48
+      internalID: 1813248758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_15
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 264
+        width: 77
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd56af36517fe443b6262af27586b86
+      internalID: -1455492715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_16
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 0
+        width: 335
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc522d26f7a4b14daaa341b078793ac
+      internalID: -1450296618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_17
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 41
+        width: 273
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ade85b0dd1e0f045829070da5f12e60
+      internalID: -5658960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_18
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 19
+        width: 475
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a183078426f1b734ea3c39d2466b1b81
+      internalID: -1490491358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_19
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 199
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4661a0e9e3a12246af7e9bb1401a55a
+      internalID: -445455511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_20
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 58
+        width: 259
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 830600a86b9991f4991cfaf08768b394
+      internalID: -514263749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_21
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 188
+        width: 59
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ed70e9be871e04796c768d6088fe02
+      internalID: -853821078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_22
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 100
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad4710086afacc4bb9712e09db2aa00
+      internalID: -1701515015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_23
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 89
+        width: 67
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78761c3b2319f04bbf7880d1fa2345d
+      internalID: 1787334491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HERES YOUR SYMBOLS RUDY_24
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 28
+        width: 331
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cf1626acaf65b478098a53f153f5f1
+      internalID: -2095595108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      HERES YOUR SYMBOLS RUDY_14: 1813248758
+      HERES YOUR SYMBOLS RUDY_2: 379249617
+      HERES YOUR SYMBOLS RUDY_1: 1012320546
+      HERES YOUR SYMBOLS RUDY_15: -1455492715
+      HERES YOUR SYMBOLS RUDY_3: 1267332584
+      HERES YOUR SYMBOLS RUDY_8: -1283452353
+      HERES YOUR SYMBOLS RUDY_19: -445455511
+      HERES YOUR SYMBOLS RUDY_10: 211975735
+      HERES YOUR SYMBOLS RUDY_24: -2095595108
+      HERES YOUR SYMBOLS RUDY_9: -1564111903
+      HERES YOUR SYMBOLS RUDY_17: -5658960
+      HERES YOUR SYMBOLS RUDY_13: -1205529031
+      HERES YOUR SYMBOLS RUDY_11: -1432859547
+      HERES YOUR SYMBOLS RUDY_4: -1064164285
+      HERES YOUR SYMBOLS RUDY_21: -853821078
+      HERES YOUR SYMBOLS RUDY_6: 1823618250
+      HERES YOUR SYMBOLS RUDY_23: 1787334491
+      HERES YOUR SYMBOLS RUDY_5: -1995718726
+      HERES YOUR SYMBOLS RUDY_12: 1231673358
+      HERES YOUR SYMBOLS RUDY_7: 1973932021
+      HERES YOUR SYMBOLS RUDY_20: -514263749
+      HERES YOUR SYMBOLS RUDY_0: -160473785
+      HERES YOUR SYMBOLS RUDY_16: -1450296618
+      HERES YOUR SYMBOLS RUDY_22: -1701515015
+      HERES YOUR SYMBOLS RUDY_18: -1490491358
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

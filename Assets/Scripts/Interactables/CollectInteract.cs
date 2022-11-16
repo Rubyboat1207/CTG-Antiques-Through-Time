@@ -15,6 +15,17 @@ public class CollectInteract : ToggleableInteractable
     GameObject aquiredScreen;
 
     [SerializeField] bool shouldDelete;
+    [SerializeField] Vector3 StartingPosition;
+    [SerializeField] float bobHeight = 5;
+    [SerializeField] float bobFrequency = 1;
+    [SerializeField] bool ShouldGotoNextLevel;
+    [SerializeField] int buildIndex;
+
+    public new void Start()
+    {
+        base.Start();
+        StartingPosition = transform.position;
+    }
 
     public override void OnSuccessfulInteract()
     {
@@ -40,8 +51,14 @@ public class CollectInteract : ToggleableInteractable
                 if(shouldDelete) {
                     Interacter.selectedInteract = null;
                     Destroy(gameObject);
+                    onInteracted.Invoke();
+                    if (ShouldGotoNextLevel)
+                    {
+                        RTConsole.Singleton.GetConVar<int>("mapid").value = buildIndex;
+                    }
                 }
             }
         }
+        transform.position = new Vector3(StartingPosition.x, StartingPosition.y + Mathf.Sin(Time.realtimeSinceStartup * bobFrequency) * bobHeight, StartingPosition.z);
     }
 }

@@ -10,6 +10,7 @@ public class BookManager : MonoBehaviour
     [System.Serializable]
     public struct Page {
         public string Title;
+        [TextArea(5, 10)]
         public string Content;
     }
     public Page[] pages;

@@ -40,4 +40,9 @@ public class PlayerStatHandler : MonoBehaviour
         GetComponent<PlayerMove>().jumpForce = stat.jumpheight;
         GetComponent<Animator>().SetInteger("Player", ((int)stat.id));
     }
+
+    public void SetCharacterType(int stat)
+    {
+        RTConsole.Singleton.GetConVar<int>("pl_model").value = stat;
+    }
 }
