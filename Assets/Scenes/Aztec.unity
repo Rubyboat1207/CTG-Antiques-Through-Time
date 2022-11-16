@@ -5871,6 +5871,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1560838653856171704, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5960,6 +5965,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.00000000747329
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410251796498100268, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: ChapterName
+      value: The Pitfall of Aztec
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410251796498100268, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: ChapterIndex
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4988268635254333420, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
