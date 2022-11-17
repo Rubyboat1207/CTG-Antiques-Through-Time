@@ -183,9 +183,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'al-balkhi
 
-    1998 - 2004'
+    786 - 886'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -321,9 +321,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'Al-kwa
 
-    1998 - 2004'
+    780-850'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -2169,7 +2169,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Owen
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -2197,7 +2197,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 53.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3025,7 +3025,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Al-Kwa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -3053,7 +3053,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 44.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3209,7 +3209,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3056
+  m_Name: pb_Mesh-391594
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3688,7 +3688,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3182
+  m_Name: pb_Mesh-391720
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4082,7 +4082,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32472
+  m_Name: pb_Mesh80984
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4246,7 +4246,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33496
+  m_Name: pb_Mesh81996
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11614,7 +11614,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2892
+  m_Name: pb_Mesh-391430
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21487,9 +21487,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'Mohammad
 
-    1998 - 2004'
+    1196-1248'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -21573,7 +21573,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33226
+  m_Name: pb_Mesh81724
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22158,7 +22158,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32220
+  m_Name: pb_Mesh80734
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22322,7 +22322,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32782
+  m_Name: pb_Mesh81294
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25804,7 +25804,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32722
+  m_Name: pb_Mesh81234
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -26928,9 +26928,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'Yunus
 
-    1998 - 2004'
+    870 - 980'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -27109,6 +27109,142 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &446836920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 446836921}
+  - component: {fileID: 446836923}
+  - component: {fileID: 446836922}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &446836921
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446836920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1010763581}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &446836922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446836920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: defghijklmnopqrstuvwxyzabc
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
+  m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 7.2
+  m_fontSizeBase: 20.7
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 6.3
+  m_fontSizeMax: 11
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 52.973816, y: 17.841326, z: 53.97263, w: 17.30833}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &446836923
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446836920}
+  m_CullTransparentMesh: 1
 --- !u!4 &454814595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7917624984392178427, guid: a1b1d1351bddcc24292d3bc3c7726511,
@@ -27236,7 +27372,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32918
+  m_Name: pb_Mesh81414
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -27400,7 +27536,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32318
+  m_Name: pb_Mesh80830
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -27780,7 +27916,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33036
+  m_Name: pb_Mesh81532
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -28952,7 +29088,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33172
+  m_Name: pb_Mesh81668
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29168,7 +29304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Mohammad
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -29196,7 +29332,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 44.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -29799,7 +29935,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3098
+  m_Name: pb_Mesh-391636
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30021,9 +30157,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'Ishaq
 
-    1998 - 2004'
+    704 - 764'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -30107,7 +30243,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33468
+  m_Name: pb_Mesh81968
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30271,7 +30407,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3024
+  m_Name: pb_Mesh-391562
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30476,7 +30612,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33312
+  m_Name: pb_Mesh81810
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30634,6 +30770,142 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &610042494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 610042495}
+  - component: {fileID: 610042497}
+  - component: {fileID: 610042496}
+  m_Layer: 0
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &610042495
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610042494}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 952436928}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &610042496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610042494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: abcdefghijklmnopqrstuvwxyz
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
+  m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 7.2
+  m_fontSizeBase: 20.7
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 6.3
+  m_fontSizeMax: 11
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 52.973816, y: 17.841326, z: 53.97263, w: 17.30833}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &610042497
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610042494}
+  m_CullTransparentMesh: 1
 --- !u!1 &613274954
 GameObject:
   m_ObjectHideFlags: 0
@@ -31986,7 +32258,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32748
+  m_Name: pb_Mesh81260
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -32150,7 +32422,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33512
+  m_Name: pb_Mesh82012
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33634,6 +33906,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialPuzzle
       objectReference: {fileID: 0}
+    - target: {fileID: 5058379879754407783, guid: 27a37c669a8f17c40832b9218affc886,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5058379880043361882, guid: 27a37c669a8f17c40832b9218affc886,
         type: 3}
       propertyPath: m_Mesh
@@ -33717,7 +33994,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32690
+  m_Name: pb_Mesh81202
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33948,7 +34225,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32272
+  m_Name: pb_Mesh80786
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34112,7 +34389,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33050
+  m_Name: pb_Mesh81546
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34276,7 +34553,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32334
+  m_Name: pb_Mesh80846
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37657,7 +37934,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32404
+  m_Name: pb_Mesh80916
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37821,7 +38098,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33158
+  m_Name: pb_Mesh81654
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38037,9 +38314,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'Qurra
 
-    1998 - 2004'
+    826 - 901'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -38238,7 +38515,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2930
+  m_Name: pb_Mesh-391468
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38408,7 +38685,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3112
+  m_Name: pb_Mesh-391650
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38941,7 +39218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Khayyam
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -38969,7 +39246,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 52.85
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -39025,7 +39302,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3154
+  m_Name: pb_Mesh-391692
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -39241,7 +39518,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Qurra
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -39269,7 +39546,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 53.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -41214,7 +41491,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33572
+  m_Name: pb_Mesh82072
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -41378,7 +41655,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3168
+  m_Name: pb_Mesh-391706
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -41536,6 +41813,83 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &952436927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 952436928}
+  - component: {fileID: 952436930}
+  - component: {fileID: 952436929}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &952436928
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952436927}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.06650161}
+  m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 610042495}
+  m_Father: {fileID: 1151013842}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.67900085, y: -1.0540009}
+  m_SizeDelta: {x: 100, y: 7.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &952436929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952436927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 265712bf5a224714985fe45bb26f89e7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &952436930
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952436927}
+  m_CullTransparentMesh: 1
 --- !u!1 &957203034
 GameObject:
   m_ObjectHideFlags: 0
@@ -41857,7 +42211,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32890
+  m_Name: pb_Mesh81386
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -45413,7 +45767,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33252
+  m_Name: pb_Mesh81750
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -45629,9 +45983,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'Luqa
 
-    1998 - 2004'
+    820 - 912'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -45841,6 +46195,83 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1010763580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010763581}
+  - component: {fileID: 1010763583}
+  - component: {fileID: 1010763582}
+  m_Layer: 0
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1010763581
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010763580}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.06650161}
+  m_LocalScale: {x: 0.015, y: 0.015, z: 0.015}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 446836921}
+  m_Father: {fileID: 1151013842}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.69100076, y: -1.1604958}
+  m_SizeDelta: {x: 100, y: 7.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1010763582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010763580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 265712bf5a224714985fe45bb26f89e7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1010763583
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010763580}
+  m_CullTransparentMesh: 1
 --- !u!1 &1014138098
 GameObject:
   m_ObjectHideFlags: 0
@@ -47081,6 +47512,39 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1151013841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1151013842}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1151013842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1151013841}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -45.266685, y: 30.66667, z: 19.333334}
+  m_LocalScale: {x: 66.66667, y: 66.66667, z: 66.66667}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 952436928}
+  - {fileID: 1010763581}
+  m_Father: {fileID: 1533671872}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1156548917
 GameObject:
   m_ObjectHideFlags: 0
@@ -50648,7 +51112,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33394
+  m_Name: pb_Mesh81892
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -50812,7 +51276,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3038
+  m_Name: pb_Mesh-391576
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -50982,7 +51446,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32242
+  m_Name: pb_Mesh80756
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -51146,7 +51610,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32990
+  m_Name: pb_Mesh81486
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -51310,7 +51774,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32488
+  m_Name: pb_Mesh81000
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -51480,7 +51944,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3140
+  m_Name: pb_Mesh-391678
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -51650,7 +52114,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3070
+  m_Name: pb_Mesh-391608
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -51941,13 +52405,25 @@ MonoBehaviour:
   extraInteractDistance: 0
   onInteracted:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1151013841}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   pages:
   - Title: Notes on Cyphering
     Content: during my travels i have found many ciphers. 3 of these being the most
       important. the most common and innovative of which is the cesar cipher. it
       is one of the Least compicated ciphers and therefore is very good for those
-      who are inexperienced or FegInning with cyphering but needS to be protected.
+      who are inexperienced or BegInning with cyphering but needS to be protected.
       though not best for keeping things from someone with enough time or efffort.
   - Title: Cesar Cipher
     Content: 'the cipher works by using two simpLe inputs. one is the input, which
@@ -52059,7 +52535,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3084
+  m_Name: pb_Mesh-391622
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -52223,7 +52699,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32838
+  m_Name: pb_Mesh81334
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -52387,7 +52863,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33588
+  m_Name: pb_Mesh82088
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -52551,7 +53027,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2950
+  m_Name: pb_Mesh-391488
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -61154,7 +61630,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3126
+  m_Name: pb_Mesh-391664
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -61318,7 +61794,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33634
+  m_Name: pb_Mesh82146
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -64806,7 +65282,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32620
+  m_Name: pb_Mesh81132
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -65085,7 +65561,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32366
+  m_Name: pb_Mesh80878
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -68746,7 +69222,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Luqa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -68774,7 +69250,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 53.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -68997,9 +69473,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'Owen
 
-    1998 - 2004'
+    1134-1196'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -73121,7 +73597,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33118
+  m_Name: pb_Mesh81614
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -73285,7 +73761,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33346
+  m_Name: pb_Mesh81844
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -76833,7 +77309,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Ishaq
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -76861,7 +77337,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 53.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -77185,9 +77661,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'Al-Majriti
 
-    1998 - 2004'
+    950-1007'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -81610,6 +82086,16 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 790
       objectReference: {fileID: 0}
+    - target: {fileID: 7917624983053269897, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.463
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624983053269898, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7917624983053269900, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_Mesh
@@ -81655,6 +82141,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1210098253}
+    - target: {fileID: 7917624983323641317, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7917624983323641336, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_Mesh
@@ -81684,6 +82175,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VersionIndex
       value: 799
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624983361761203, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7917624983361761205, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -81870,6 +82366,11 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 802
       objectReference: {fileID: 0}
+    - target: {fileID: 7917624984267096831, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7917624984352794549, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_Mesh
@@ -81879,6 +82380,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VersionIndex
       value: 796
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624984352794551, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984352794569, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -81890,6 +82396,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1267605965}
+    - target: {fileID: 7917624984392178404, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7917624984392178426, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_Mesh
@@ -81915,6 +82426,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1299968263}
+    - target: {fileID: 7917624984471540633, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7917624984471540636, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_Mesh
@@ -81950,6 +82466,16 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1279308707}
+    - target: {fileID: 7917624984723634621, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624984926730932, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7917624984926730954, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_Mesh
@@ -81979,6 +82505,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_VersionIndex
       value: 805
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624985069733330, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: orderToBeSelected
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7917624985069733332, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -82430,7 +82961,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32504
+  m_Name: pb_Mesh81016
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -85811,7 +86342,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33104
+  m_Name: pb_Mesh81600
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -86805,7 +87336,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Yunus
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -86833,7 +87364,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 53.35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -86990,7 +87521,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32190
+  m_Name: pb_Mesh80704
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -87206,7 +87737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Al-balkhi
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -87234,7 +87765,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 44.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -88721,7 +89252,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gordon Freeman
+  m_text: Al-majriti
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -88749,7 +89280,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.95
+  m_fontSize: 44.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -89030,7 +89561,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908194481}
-  m_LocalRotation: {x: 0.010024403, y: -0.026018284, z: -0.0002609184, w: -0.9996112}
+  m_LocalRotation: {x: 0.0145180635, y: -0.011677726, z: -0.00016956613, w: -0.99982643}
   m_LocalPosition: {x: 6.052, y: 11.851, z: 126.864}
   m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
   m_ConstrainProportionsScale: 1
@@ -89044,7 +89575,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33408
+  m_Name: pb_Mesh81906
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -89249,7 +89780,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33422
+  m_Name: pb_Mesh81920
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -89413,7 +89944,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32420
+  m_Name: pb_Mesh80932
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -89591,17 +90122,17 @@ PrefabInstance:
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.63
+      value: 7.07
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.26000023
+      value: -4.4500003
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4300003
+      value: -125.24
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
@@ -89616,27 +90147,27 @@ PrefabInstance:
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018954076
+      value: 0.000000018954076
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003288985
+      value: -0.000000003288985
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.63
+      value: 7.07
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.26000023
+      value: -4.4500003
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.4300003
+      value: -125.24
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
@@ -89651,12 +90182,12 @@ PrefabInstance:
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018954076
+      value: 0.000000018954076
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003288985
+      value: -0.000000003288985
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425426, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
@@ -89667,6 +90198,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 1.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947952422517075852, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947952422517075852, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 1947952422517075852, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -113.67
       objectReference: {fileID: 0}
     - target: {fileID: 1947952422517075852, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
@@ -93020,7 +93566,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32872
+  m_Name: pb_Mesh81368
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -96584,7 +97130,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32956
+  m_Name: pb_Mesh81452
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -96849,7 +97395,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2828
+  m_Name: pb_Mesh-391366
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -97013,7 +97559,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33554
+  m_Name: pb_Mesh82054
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -97329,7 +97875,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2912
+  m_Name: pb_Mesh-391450
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -97493,7 +98039,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32594
+  m_Name: pb_Mesh81106
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -97657,7 +98203,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh33654
+  m_Name: pb_Mesh82166
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -97821,7 +98367,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32446
+  m_Name: pb_Mesh80958
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -98068,9 +98614,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Gordon Freeman
+  m_text: 'Khayyam
 
-    1998 - 2004'
+    1048 - 1131'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2385372151307104095866a841a9059a, type: 2}
   m_sharedMaterial: {fileID: -4824560929667478885, guid: 2385372151307104095866a841a9059a,
@@ -98154,7 +98700,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32390
+  m_Name: pb_Mesh80902
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -98450,7 +98996,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh32674
+  m_Name: pb_Mesh81186
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
