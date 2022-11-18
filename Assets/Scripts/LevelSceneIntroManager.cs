@@ -7,6 +7,7 @@ public class LevelSceneIntroManager : MonoBehaviour
 {
     public int ChapterIndex;
     public string ChapterName;
+    public string ChapterNumberPrefix = "Chapter";
 
     [Header("Text Objects")]
     public TextMeshProUGUI chapter;
@@ -15,7 +16,7 @@ public class LevelSceneIntroManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        chapter.text = "Chapter " + ChapterIndex;
+        chapter.text = ChapterNumberPrefix + " " + ChapterIndex;
         title.text = ChapterName;
         
         GetComponent<Animation>().Play("ChapterIntroAnimation");
