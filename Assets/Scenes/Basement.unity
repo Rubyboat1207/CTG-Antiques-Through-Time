@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3825,7 +3825,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh68414
+  m_Name: pb_Mesh29104
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8586,7 +8586,11 @@ MonoBehaviour:
   dialogue:
   - emitterName: Cassie
     text: I wonder what used to be on here
-    image: {fileID: 0}
+    image: {fileID: -1930758843, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
+    continueToNext: 0
+  - emitterName: Cassie
+    text: Teehee
+    image: {fileID: -1930758843, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
     continueToNext: 0
 --- !u!1 &528471726
 GameObject:
@@ -12028,11 +12032,11 @@ MonoBehaviour:
   dialogue:
   - emitterName: Cassie
     text: Ugh, these shelves are broken.
-    image: {fileID: 0}
+    image: {fileID: 1143260192, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
     continueToNext: 0
   - emitterName: Cassie
     text: Somebody should clean off these shelves...
-    image: {fileID: 0}
+    image: {fileID: 1876543709, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
     continueToNext: 0
 --- !u!1 &562227645 stripped
 GameObject:
@@ -20838,7 +20842,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh68600
+  m_Name: pb_Mesh29306
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21085,7 +21089,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh68352
+  m_Name: pb_Mesh29008
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22399,7 +22403,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh68190
+  m_Name: pb_Mesh28834
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22646,7 +22650,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh68336
+  m_Name: pb_Mesh28992
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23571,15 +23575,15 @@ MonoBehaviour:
   dialogue:
   - emitterName: Cassie
     text: huh, I wonder what's in these.
-    image: {fileID: 0}
+    image: {fileID: -1930758843, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
     continueToNext: 1
   - emitterName: Cassie
     text: actually, they're empty.
-    image: {fileID: 0}
+    image: {fileID: 1143260192, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
     continueToNext: 0
   - emitterName: Cassie
     text: Still Empty.
-    image: {fileID: 0}
+    image: {fileID: -1930758843, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
     continueToNext: 0
 --- !u!208 &1622711062
 NavMeshObstacle:
@@ -28191,15 +28195,15 @@ MonoBehaviour:
   dialogue:
   - emitterName: Cassie
     text: That's a lot of stuff we can sell!
-    image: {fileID: 0}
+    image: {fileID: -1930758843, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
     continueToNext: 1
   - emitterName: Cassie
     text: Wait. These are empty
-    image: {fileID: 0}
+    image: {fileID: 1143260192, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
     continueToNext: 0
   - emitterName: Cassie
     text: Unlike the fridge, checking more than once doesnt make more stuff appear.
-    image: {fileID: 0}
+    image: {fileID: 1143260192, guid: b11e4d5d0bb0b5a4d907884f93850cf2, type: 3}
     continueToNext: 1
 --- !u!208 &2091851715
 NavMeshObstacle:
@@ -28818,7 +28822,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh68684
+  m_Name: pb_Mesh29400
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29192,7 +29196,22 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 7baab241a9100c844894d009d4c72338, type: 2}
+    - target: {fileID: 5189492076346495633, guid: 6e324702bc215cc42b9b43d3a1d3019d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9fcd2c39505b5874eada6cc940f51fde, type: 2}
     - target: {fileID: 5296975322245865026, guid: 6e324702bc215cc42b9b43d3a1d3019d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7baab241a9100c844894d009d4c72338, type: 2}
+    - target: {fileID: 6524790251903787328, guid: 6e324702bc215cc42b9b43d3a1d3019d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7baab241a9100c844894d009d4c72338, type: 2}
+    - target: {fileID: 8014675395652708367, guid: 6e324702bc215cc42b9b43d3a1d3019d,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

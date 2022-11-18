@@ -12,14 +12,27 @@ public class RTConsoleInput : MonoBehaviour
     public UnityEvent<string> Submitted = new UnityEvent<string>();
     public int entryCount;
     public List<string> prevEntries = new List<string>();
+    bool skipframe = false;
+    public bool arrows = true;
 
     private void Start()
     {
         prevEntries.Add("");
     }
+
+    private void OnEnable()
+    {
+        skipframe = true;
+    }
+
     // Update is called once per frame
     void LateUpdate()
     {
+        if(skipframe)
+        {
+            skipframe = false;
+            return;
+        }
         string inputString = Input.inputString.Replace("`", "").Replace("", "");
 
         if (SelectedArea.x != SelectedArea.y)
@@ -80,6 +93,7 @@ public class RTConsoleInput : MonoBehaviour
                 SelectedArea.y = SelectedArea.x;
             }
         }
+
         //Should Occur at the end
         if (Input.GetKeyDown(KeyCode.Return))
         {
@@ -87,18 +101,22 @@ public class RTConsoleInput : MonoBehaviour
             prevEntries.Add(text);
             entryCount = prevEntries.Count;
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if(arrows)
         {
-            entryCount--;
-            entryCount = Mathf.Clamp(entryCount, 0, prevEntries.Count - 1);
-            text = prevEntries[entryCount];
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                entryCount--;
+                entryCount = Mathf.Clamp(entryCount, 0, prevEntries.Count - 1);
+                text = prevEntries[entryCount];
+            }
+            if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                entryCount++;
+                entryCount = Mathf.Clamp(entryCount, 0, prevEntries.Count - 1);
+                text = prevEntries[entryCount];
+            }
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            entryCount++;
-            entryCount = Mathf.Clamp(entryCount, 0, prevEntries.Count - 1);
-            text = prevEntries[entryCount];
-        }
+        
         SelectedArea.x = Mathf.Clamp(SelectedArea.x, 0, text.Length);
         SelectedArea.y = Mathf.Clamp(SelectedArea.y, 0, text.Length);
         placeholder.enabled = text.Length == 0;

@@ -27,7 +27,7 @@ public class PuzzleInteractable : ToggleableInteractable
         {
             OnClosePuzzle();
         }
-        
+        GameObject.Find("Notebook").GetComponent<Animation>().Play("SlideIn");
         //TODO: Disable Player Move
     }
 
@@ -41,6 +41,7 @@ public class PuzzleInteractable : ToggleableInteractable
         cam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = OldOffset;
         PlayerMove.Instance.canMove = true; //This can cause issues if multiple components are controlling movement
                                             // I'll be back here in a week when an unfindable bug appears due to this change
+        GameObject.Find("Notebook").GetComponent<Animation>().Play("SlideOut");
     }
 
     public virtual void OnOpenPuzzle()

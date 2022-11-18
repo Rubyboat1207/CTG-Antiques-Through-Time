@@ -47,5 +47,9 @@ public class LevelSceneIntroManager : MonoBehaviour
         {
             character.text = "Brady";
         }
+        if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Return))
+        {
+            GetComponent<Animation>().Play("EndAnimEarly");
+        }
     }
 }

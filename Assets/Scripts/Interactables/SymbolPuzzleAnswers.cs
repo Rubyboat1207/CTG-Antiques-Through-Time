@@ -74,7 +74,7 @@ public class SymbolPuzzleAnswers : PuzzleInteractable
     public new void Start()
     {
         base.Start();
-        CorrectInputs = new List<int>(Symbols.Length);
+        CorrectInputs = new List<int>(new int[Images.Length]);
         for (int inp = 0; inp < CorrectInputs.Count; ++inp)
         {
             CorrectInputs[inp] = -1;
