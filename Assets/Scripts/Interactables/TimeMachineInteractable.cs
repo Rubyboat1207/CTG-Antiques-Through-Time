@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class TimeMachineInteractable : Interactable
 {
-    //TODO: Implement
+    public override void Interact()
+    {
+        base.Interact();
+        RTConsole.Singleton.GetConVar<int>("mapid").value = 3;
+    }
 }
