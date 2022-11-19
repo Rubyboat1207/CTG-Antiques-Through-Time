@@ -23,7 +23,7 @@ public class HumanoidAnimator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        curPos = transform.position;
+        curPos = transform.localPosition;
 
         positionDelta = lastPos - curPos;
 
