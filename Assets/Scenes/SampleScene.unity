@@ -55463,6 +55463,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1560838653856171704, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -55491,12 +55496,12 @@ PrefabInstance:
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018954076
+      value: 0.000000018954076
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003288985
+      value: -0.000000003288985
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
@@ -55526,12 +55531,12 @@ PrefabInstance:
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018954076
+      value: 0.000000018954076
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003288985
+      value: -0.000000003288985
       objectReference: {fileID: 0}
     - target: {fileID: 1947952422517075852, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
@@ -55559,6 +55564,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -1425234086, guid: bc99b3b17b35d5e4a9b700d411c04431,
         type: 3}
+    - target: {fileID: 4410251796498100268, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: ChapterName
+      value: Movement Test
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410251796498100268, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: ChapterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4410251796498100268, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: ChapterNumberPrefix
+      value: Debug
+      objectReference: {fileID: 0}
     - target: {fileID: 4988268635254333420, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_Name

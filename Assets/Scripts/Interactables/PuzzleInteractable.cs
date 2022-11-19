@@ -12,6 +12,7 @@ public class PuzzleInteractable : ToggleableInteractable
     Vector3 OldOffset;
     public Vector3 Offset;
     public bool focused;
+    public bool haveNotes = true;
     public UnityEvent<bool, GameObject> OnPuzzleExit = new UnityEvent<bool, GameObject>();
 
     public override void Interact()
@@ -27,7 +28,10 @@ public class PuzzleInteractable : ToggleableInteractable
         {
             OnClosePuzzle();
         }
-        GameObject.Find("Notebook").GetComponent<Animation>().Play("SlideIn");
+        if(haveNotes)
+        {
+            GameObject.Find("Notebook").GetComponent<Animation>().Play("SlideIn");
+        }
         //TODO: Disable Player Move
     }
 
@@ -41,15 +45,23 @@ public class PuzzleInteractable : ToggleableInteractable
         cam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = OldOffset;
         PlayerMove.Instance.canMove = true; //This can cause issues if multiple components are controlling movement
                                             // I'll be back here in a week when an unfindable bug appears due to this change
-        GameObject.Find("Notebook").GetComponent<Animation>().Play("SlideOut");
+        if (haveNotes)
+        {
+            GameObject.Find("Notebook").GetComponent<Animation>().Play("SlideOut");
+        }
     }
 
     public virtual void OnOpenPuzzle()
     {
         CinemachineVirtualCamera cam = GameObject.Find("CM vcam1").GetComponent<CinemachineVirtualCamera>();
+        OldOffset = cam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset;
+        ReorientCamera(cam);
+    }
+
+    public void ReorientCamera(CinemachineVirtualCamera cam)
+    {
         cam.LookAt = LookPos;
         cam.Follow = LookPos;
-        OldOffset = cam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset;
         cam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = Offset;
         PlayerMove.Instance.canMove = false;
     }
