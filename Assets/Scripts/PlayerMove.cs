@@ -43,7 +43,10 @@ public class PlayerMove : MonoBehaviour
         if (canMove)
         {
             // Grab the direct input from the user
-            Vector3 inputVector = new Vector3(Input.GetAxis("Horizontal"), yVelocity, Input.GetAxis("Vertical"));
+            Vector3 inputVector = (Input.GetAxis("Vertical") * transform.forward) + (Input.GetAxis("Horizontal") * transform.right);
+
+            //Apply Jump
+            inputVector.y = yVelocity;
 
             // Make moving no longer dependant on the frame rate
             Vector3 frameAdjustedMovement = inputVector * Time.deltaTime;
