@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class TeleportBack : MonoBehaviour
 {
+    public UnityEvent onTeleport = new UnityEvent(); 
     [SerializeField] Transform telepoint;
     private void OnTriggerStay(Collider other)
     {
@@ -28,6 +30,7 @@ public class TeleportBack : MonoBehaviour
             {
                 rb.isKinematic = false;
             }
+            onTeleport.Invoke();
         }
     }
 }

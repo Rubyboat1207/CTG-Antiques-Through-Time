@@ -13,9 +13,9 @@ public class SymbolPuzzleAnswers : PuzzleInteractable
     [SerializeField] List<int> CorrectInputs;
     [SerializeField] Image[] Images;
 
-    public override void OnClosePuzzle()
+    public override void ClosePuzzle()
     {
-        base.OnClosePuzzle();
+        base.ClosePuzzle();
         if(allSymbolsCorrect())
         {
             OnPuzzleExit.Invoke(true, gameObject);

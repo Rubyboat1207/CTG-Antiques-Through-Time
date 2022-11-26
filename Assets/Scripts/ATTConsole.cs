@@ -17,7 +17,7 @@ public class ATTConsole : MonoBehaviour
     {
         Instance = this;
         setVisibility(visible);
-        if(!registered)
+        if (!RTConsole.Singleton.HasConVar<int>("pl_model"))
         {
             TypedConVar<int>.RegisterConVar("pl_model", 0);
             TypedConVar<bool>.RegisterConVar("sv_cheats", false);
@@ -29,13 +29,24 @@ public class ATTConsole : MonoBehaviour
             TypedConVar<int>.RegisterConVar("mapid", SceneManager.GetActiveScene().buildIndex);
             registered = true;
         }
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.BackQuote) || Input.GetKeyDown(KeyCode.Tilde)) {
+        if (!RTConsole.Singleton.HasConVar<int>("pl_model"))
+        {
+            TypedConVar<int>.RegisterConVar("pl_model", 0);
+            TypedConVar<bool>.RegisterConVar("sv_cheats", false);
+            PersistantDataHolder.Instance.ConFuncs.Add("noclip", (name) => {
+                if (RTConsole.Singleton)
+                    noclip = !noclip;
+                PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;
+            });
+            TypedConVar<int>.RegisterConVar("mapid", SceneManager.GetActiveScene().buildIndex);
+            registered = true;
+        }
+        if (Input.GetKeyDown(KeyCode.BackQuote) || Input.GetKeyDown(KeyCode.Tilde)) {
             visible = !visible;
             print(visible);
             setVisibility(visible);

@@ -17,8 +17,13 @@ public class AgentMovePoints : MonoBehaviour
 
     public void Update()
     {
-        if (Mathf.Abs((transform.position - points[currentPoint].position).magnitude) < 0.5)
+        Vector3 pos = transform.position;
+        pos.y = 0;
+        Vector3 tpos = points[currentPoint].position;
+        tpos.y = 0;
+        if (Mathf.Abs((pos - tpos).magnitude) < 0.5)
         {
+            
             currentPoint = wrap(currentPoint + 1, 0, points.Length - 1);
             agent.SetDestination(points[currentPoint].position);
         }

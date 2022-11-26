@@ -16,15 +16,12 @@ public class LevelSceneIntroManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        chapter.text = ChapterNumberPrefix + " " + ChapterIndex;
-        title.text = ChapterName;
-        
-        GetComponent<Animation>().Play("ChapterIntroAnimation");
+        OpenIntro();
     }
 
     private void Update()
     {
-        if(!GetComponent<Animation>().isPlaying)
+        if (!GetComponent<Animation>().isPlaying)
         {
             return;
         }
@@ -32,7 +29,7 @@ public class LevelSceneIntroManager : MonoBehaviour
         try
         {
             charid = RTConsole.Singleton.GetConVar<int>("pl_model").value;
-        }catch
+        } catch
         {
             return;
         }
@@ -48,9 +45,25 @@ public class LevelSceneIntroManager : MonoBehaviour
         {
             character.text = "Brady";
         }
-        if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Return))
         {
             GetComponent<Animation>().Play("EndAnimEarly");
         }
+    }
+
+    public void SetChapterIndex(int index)
+    {
+        ChapterIndex = index;
+    }
+    public void SetChapterName(string name)
+    {
+        ChapterName = name;
+    }
+    public void OpenIntro()
+    {
+        chapter.text = ChapterNumberPrefix + " " + ChapterIndex;
+        title.text = ChapterName;
+
+        GetComponent<Animation>().Play("ChapterIntroAnimation");
     }
 }

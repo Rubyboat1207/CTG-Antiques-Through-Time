@@ -9,7 +9,7 @@ public class ShotArrow : MonoBehaviour
     {
         if(!collided)
         {
-            transform.Translate(Vector3.forward * -5 * Time.deltaTime);
+            transform.Translate(Vector3.forward * -25 * Time.deltaTime);
         }
     }
 
@@ -18,6 +18,7 @@ public class ShotArrow : MonoBehaviour
         if(collision.gameObject.tag == "target")
         {
             collided = true;
+            TargetHandlers.instance.hitTarget(collision.gameObject);
         }
     }
 }

@@ -66,6 +66,18 @@ public class RTConsole : MonoBehaviour
         }
     }
 
+    public bool HasConVar<T>(string name)
+    {
+        if (PersistantDataHolder.Instance.ConVars.ContainsKey(name))
+        {
+            if (PersistantDataHolder.Instance.ConVars[name].Type == typeof(T))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public ConVar GetConVar(string name)
     {
         if(PersistantDataHolder.Instance.ConVars.ContainsKey(name)) {

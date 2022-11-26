@@ -19,9 +19,9 @@ public class BookPuzzleInteractable : PuzzleInteractable
         }
     }
 
-    public override void OnClosePuzzle()
+    public override void ClosePuzzle()
     {
-        base.OnClosePuzzle();
+        base.ClosePuzzle();
         if(allBooksCorrect())
         {
             isInteractable = false;
@@ -45,7 +45,7 @@ public class BookPuzzleInteractable : PuzzleInteractable
     public override void OnPuzzleComplete()
     {
         base.OnPuzzleComplete();
-        OnClosePuzzle();
+        ClosePuzzle();
     }
 
     public void ClearPuzzle()

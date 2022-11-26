@@ -10,13 +10,26 @@ public class DialogueEmitter : Interactable
     public int progress;
     public UnityEvent onDialogueBegin = new UnityEvent();
     public UnityEvent onDialogueComplete = new UnityEvent();
+    public int lastGoto = -1;
     [System.Serializable]
     public class DialogeController : DialogueManager.Dialogue
     {
         public bool continueToNext = true;
     }
-
     [SerializeField] DialogeController[] dialogue;
+
+
+    public new void Start()
+    {
+        base.Start();
+        onDialogueComplete.AddListener(() =>
+        {
+            if (progress == dialogue.Length && lastGoto != -1)
+            {
+                progress = lastGoto;
+            }
+        });
+    }
 
     public override void Interact()
     {
@@ -38,7 +51,9 @@ public class DialogueEmitter : Interactable
                 if (dialogue[progress].continueToNext && (progress != dialogue.Length - 1))
                 {
                     if(progress + 1 <= dialogue.Length)
+                    {
                         progress++;
+                    }
                     DialogueManager.RenderDialogue(dialogue[progress]);
                 }
                 else
@@ -52,6 +67,7 @@ public class DialogueEmitter : Interactable
             {
                 interacted = false;
                 onDialogueComplete.Invoke();
+                
             }
         }
     }

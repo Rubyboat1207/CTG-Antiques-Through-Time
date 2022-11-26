@@ -24,7 +24,7 @@ public class PlayerStatHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        LoadStat(stats[((int)type)]);
+        SetCharacterType((int)type);
     }
 
     void Update() {

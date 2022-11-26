@@ -53,9 +53,9 @@ public class DialPuzzleInteractable : PuzzleInteractable
         }
     }
 
-    public override void OnClosePuzzle()
+    public override void ClosePuzzle()
     {
-        base.OnClosePuzzle();
+        base.ClosePuzzle();
         if(correctDials())
         {
             isInteractable = false;

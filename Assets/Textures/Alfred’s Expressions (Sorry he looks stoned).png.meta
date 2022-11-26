@@ -125,7 +125,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlfredAngry
+      name: AlfredFear
       rect:
         serializedVersion: 2
         x: 513
@@ -149,8 +149,8 @@ TextureImporter:
       name: AlfredIdea
       rect:
         serializedVersion: 2
-        x: 830
-        y: 208
+        x: 826
+        y: 211
         width: 207
         height: 229
       alignment: 0
@@ -167,7 +167,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: AlfredFear
+      name: AlfredAngry
       rect:
         serializedVersion: 2
         x: 1158
@@ -198,8 +198,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      AlfredAngry: -1615150276
-      AlfredFear: 1872961747
+      AlfredAngry: 1872961747
+      AlfredFear: -1615150276
       AlfredIdea: -1300869450
       AlfredNeutral: 1597535061
   spritePackingTag: 

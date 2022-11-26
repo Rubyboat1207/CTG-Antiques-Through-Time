@@ -11,7 +11,9 @@ public class HumanoidAnimator : MonoBehaviour
     [SerializeField] float initx;
     [SerializeField] Vector3 curPos;
     [SerializeField] Vector3 positionDelta;
-    [SerializeField] bool facingLeft = false; 
+    [SerializeField] bool facingLeft = false;
+    [SerializeField] bool useInputForVelocityCalc = false;
+
     Animator animator;
 
     private void Start() {
@@ -23,16 +25,13 @@ public class HumanoidAnimator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        curPos = transform.localPosition;
+        curPos = transform.position;
 
-        positionDelta = lastPos - curPos;
+        positionDelta = (lastPos - curPos);
 
         Vector3 velocity = GetVelocity();
 
-        animator.SetFloat("X_Vel", velocity.x);
-        if(velocity.x == 0) {
-            animator.SetFloat("X_Vel", velocity.z);
-        }
+        animator.SetFloat("X_Vel", velocity.x + velocity.z);
         animator.SetFloat("Y_Vel", velocity.y);
         if(velocity.x != 0) {
             facingLeft = velocity.x < 0;
@@ -44,6 +43,10 @@ public class HumanoidAnimator : MonoBehaviour
     }
 
     Vector3 GetVelocity() {
+        if(useInputForVelocityCalc)
+        {
+            return -new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        }
         return positionDelta / Time.deltaTime;
     }
 }
