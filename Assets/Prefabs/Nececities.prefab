@@ -670,10 +670,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1797f54708886574587a6a01648656ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 0
   stats:
   - id: 0
-    speed: 4
+    speed: 5
     jumpheight: 2.5
   - id: 1
     speed: 5
@@ -1230,6 +1230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6259028439466685252}
+  - component: {fileID: 7418986306888020104}
   m_Layer: 0
   m_Name: Nececities
   m_TagString: Untagged
@@ -1256,6 +1257,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7418986306888020104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4988268635254333420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b75562efb545e72448426e0341b3ffcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarioPrefab: {fileID: 2518639426973004745, guid: 8772da6d9ed00381fb7365a5f1b52114,
+    type: 3}
+  player: {fileID: 1947952422517075849}
+  progress: 0
 --- !u!1 &5406382648302309134
 GameObject:
   m_ObjectHideFlags: 0

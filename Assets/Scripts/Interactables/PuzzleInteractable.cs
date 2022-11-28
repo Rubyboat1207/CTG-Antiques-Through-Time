@@ -54,8 +54,17 @@ public class PuzzleInteractable : ToggleableInteractable
             cam.transform.position = prevCamPos;
         }
         cam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = OldOffset;
-        PlayerMove.Instance.canMove = true; //This can cause issues if multiple components are controlling movement
+        //PlayerMove.Instance.canMove = true; //This can cause issues if multiple components are controlling movement
                                             // I'll be back here in a week when an unfindable bug appears due to this change
+                                            // 11/27/22 - I WAS F-ing RIGHT
+        if(GameObject.Find("MARIO"))
+        {
+            PlayerMove.Instance.transform.parent.GetComponent<ExampleInputProvider>().paused = false;
+        }else
+        {
+            print("test");
+            PlayerMove.Instance.canMove = true;
+        }
         if (haveNotes)
         {
             GameObject.Find("Notebook").GetComponent<Animation>().Play("SlideOut");
@@ -88,7 +97,14 @@ public class PuzzleInteractable : ToggleableInteractable
         cam.LookAt = LookPos;
         cam.Follow = LookPos;
         cam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = Offset;
-        PlayerMove.Instance.canMove = false;
+        if (!GameObject.Find("MARIO"))
+        {
+            PlayerMove.Instance.canMove = false;
+        }
+        else
+        {
+            PlayerMove.Instance.transform.parent.GetComponent<ExampleInputProvider>().paused = true;
+        }
     }
 
     public virtual void OnPuzzleComplete() {

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6842197408054469970}
   - component: {fileID: 6842197408054469969}
   - component: {fileID: 6842197408054469968}
+  - component: {fileID: 8961591789250868245}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -318,6 +319,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &8961591789250868245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842197408054469974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d07c4c311d4ebf7c8a3ca1785abbcb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainType: 0
+  surfaceType: 0
 --- !u!1 &6842197408219968275
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +347,7 @@ GameObject:
   - component: {fileID: 6842197408219968287}
   - component: {fileID: 6842197408219968286}
   - component: {fileID: 6842197408219968285}
+  - component: {fileID: 1140332829508034841}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -984,6 +1000,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1140332829508034841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842197408219968275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d07c4c311d4ebf7c8a3ca1785abbcb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainType: 0
+  surfaceType: 0
 --- !u!1 &6842197408530941228
 GameObject:
   m_ObjectHideFlags: 0
@@ -998,6 +1028,7 @@ GameObject:
   - component: {fileID: 6842197408530941224}
   - component: {fileID: 6842197408530941231}
   - component: {fileID: 6842197408530941230}
+  - component: {fileID: 2463357452767309627}
   m_Layer: 0
   m_Name: Cylinder (2)
   m_TagString: Untagged
@@ -1650,6 +1681,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2463357452767309627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842197408530941228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d07c4c311d4ebf7c8a3ca1785abbcb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainType: 0
+  surfaceType: 0
 --- !u!1 &6842197409338898144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1664,6 +1709,7 @@ GameObject:
   - component: {fileID: 6842197409338898156}
   - component: {fileID: 6842197409338898147}
   - component: {fileID: 6842197409338898146}
+  - component: {fileID: 288587994940519049}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -2316,6 +2362,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &288587994940519049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842197409338898144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d07c4c311d4ebf7c8a3ca1785abbcb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainType: 0
+  surfaceType: 0
 --- !u!1 &6842197410077436662
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,6 +2391,7 @@ GameObject:
   - component: {fileID: 6842197410077436656}
   - component: {fileID: 6842197410077436663}
   - component: {fileID: 9052591648411393994}
+  - component: {fileID: 1913261052549259752}
   m_Layer: 0
   m_Name: 1x3
   m_TagString: Untagged
@@ -2916,3 +2977,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 25, y: 13.2, z: 5}
   m_Center: {x: 12.363638, y: 0.37548578, z: -2.464775}
+--- !u!114 &1913261052549259752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842197410077436662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d07c4c311d4ebf7c8a3ca1785abbcb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainType: 0
+  surfaceType: 0

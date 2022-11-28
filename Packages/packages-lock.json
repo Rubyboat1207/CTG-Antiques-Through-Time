@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.libsm64.libsm64-unity": {
+      "version": "file:sm64lib",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.rubyboat.rubylib-core": {
       "version": "file:RubyLibCore",
       "depth": 0,

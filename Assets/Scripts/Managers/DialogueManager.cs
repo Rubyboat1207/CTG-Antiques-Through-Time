@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using LibSM64;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -36,7 +37,14 @@ public class DialogueManager : MonoBehaviour
             {
                 showing = false;
                 GetComponent<Animation>().Play("Hide");
-                PlayerMove.Instance.canMove = true;
+                if(GameObject.Find("MARIO"))
+                {
+                    PlayerMove.Instance.transform.parent.GetComponent<ExampleInputProvider>().paused = false;
+                }
+                else
+                {
+                    PlayerMove.Instance.canMove = true;
+                }
             }
         }
     }
@@ -58,6 +66,7 @@ public class DialogueManager : MonoBehaviour
         if(PlayerMove.Instance)
         {
             PlayerMove.Instance.canMove = false;
+            PlayerMove.Instance.transform.parent.GetComponent< ExampleInputProvider >().paused = true;
         }
         showing = true;
     }
