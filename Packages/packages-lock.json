@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.libsm64.libsm64-unity": {
-      "version": "file:sm64lib",
+      "version": "file:libsm64-unity-master",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
