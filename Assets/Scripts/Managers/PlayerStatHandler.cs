@@ -44,5 +44,6 @@ public class PlayerStatHandler : MonoBehaviour
     public void SetCharacterType(int stat)
     {
         RTConsole.Singleton.GetConVar<int>("pl_model").value = stat;
+        LoadStat(stats[((int)type)]);
     }
 }

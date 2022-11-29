@@ -5,7 +5,7 @@ using System.IO;
 
 public class Screenshotter : MonoBehaviour
 {
-    string ss_path;
+    static string ss_path;
 
     // Start is called before the first frame update
     void Start()
@@ -22,5 +22,10 @@ public class Screenshotter : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.F2))
             ScreenCapture.CaptureScreenshot(ss_path + "/" + Directory.GetFiles(ss_path).Length + ".png");
+    }
+
+    public static void SS()
+    {
+        ScreenCapture.CaptureScreenshot(ss_path + "/" + Directory.GetFiles(ss_path).Length + ".png");
     }
 }

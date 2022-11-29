@@ -7,7 +7,6 @@ using TMPro;
 public class SymbolPuzzleAnswers : PuzzleInteractable
 {
     [SerializeField] Sprite[] Symbols;
-    int[] CorrectSymbolIndex;
     int selectedIndex = 0;
     [SerializeField] TMP_InputField[] Inputs;
     [SerializeField] List<int> CorrectInputs;
@@ -18,26 +17,27 @@ public class SymbolPuzzleAnswers : PuzzleInteractable
         base.ClosePuzzle();
         if(allSymbolsCorrect())
         {
-            OnPuzzleExit.Invoke(true, gameObject);
+            OnPuzzleComplete();
+            isInteractable = false;
         }
     }
 
-    public new void Update()
+    public override void WhilePuzzleOpen()
     {
-        base.Update();
-        if(Input.GetKeyDown(KeyCode.LeftArrow))
+        base.WhilePuzzleOpen();
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             selectedIndex--;
         }
-        if(Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             selectedIndex++;
         }
-        if(selectedIndex < 0)
+        if (selectedIndex < 0)
         {
             selectedIndex = Inputs.Length - 1;
         }
-        if(selectedIndex > Inputs.Length - 1)
+        if (selectedIndex > Inputs.Length - 1)
         {
             selectedIndex = 0;
         }
@@ -49,7 +49,7 @@ public class SymbolPuzzleAnswers : PuzzleInteractable
         {
             Inputs[selectedIndex].text = (int.Parse(Inputs[selectedIndex].text) + 1).ToString();
         }
-        for(int i = 0; i < Inputs.Length; i++)
+        for (int i = 0; i < Inputs.Length; i++)
         {
             ColorBlock block = Inputs[i].colors;
             block.normalColor = i == selectedIndex ? Color.grey : Color.white;
@@ -62,8 +62,9 @@ public class SymbolPuzzleAnswers : PuzzleInteractable
         int i = 0;
         foreach (var input in Inputs)
         {
-            if (input.text != CorrectSymbolIndex[i].ToString())
+            if (input.text != (CorrectInputs[i] + 1).ToString())
             {
+                print(input.text + " | " + (CorrectInputs[i] + 1).ToString());
                 return false;
             }
             i++;
@@ -83,10 +84,6 @@ public class SymbolPuzzleAnswers : PuzzleInteractable
         foreach (Image image in Images)
         {
             CorrectInputs[i] = Random.Range(0, Symbols.Length - 1);
-            while(!CorrectInputs.Contains(i))
-            {
-                CorrectInputs[i] = Random.Range(0, Symbols.Length - 1);
-            }
             image.sprite = Symbols[CorrectInputs[i]];
             i++;
         }

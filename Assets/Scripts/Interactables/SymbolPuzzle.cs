@@ -6,6 +6,8 @@ public class SymbolPuzzle : PuzzleInteractable
 {
     [SerializeField] float RotationAmmount = 32;
     [SerializeField] Transform SmallDial;
+    Quaternion s_g;
+    Quaternion b_g;
     [SerializeField] Transform LargeDial;
     [SerializeField] Transform[] StayUpright;
 
@@ -30,7 +32,7 @@ public class SymbolPuzzle : PuzzleInteractable
 
     public void MoveDials(int rotations)
     {
-        MoveDial(SmallDial, rotations);
+        MoveDial(SmallDial, -rotations);
         MoveDial(LargeDial, rotations);
         foreach(var upright in StayUpright)
         {

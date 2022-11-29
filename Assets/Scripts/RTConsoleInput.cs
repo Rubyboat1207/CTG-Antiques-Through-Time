@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
+using System;
 
 public class RTConsoleInput : MonoBehaviour
 {
@@ -33,7 +34,7 @@ public class RTConsoleInput : MonoBehaviour
             skipframe = false;
             return;
         }
-        string inputString = Input.inputString.Replace("`", "").Replace("", "");
+        string inputString = Input.inputString.Replace("`", "").Replace("", "").Replace(Environment.NewLine, "");
 
         if (SelectedArea.x != SelectedArea.y)
         {
@@ -97,6 +98,7 @@ public class RTConsoleInput : MonoBehaviour
         //Should Occur at the end
         if (Input.GetKeyDown(KeyCode.Return))
         {
+            text = text.Substring(0, text.Length - 1);
             Submitted.Invoke(text);
             prevEntries.Add(text);
             entryCount = prevEntries.Count;
