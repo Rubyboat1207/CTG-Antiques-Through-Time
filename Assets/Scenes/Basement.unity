@@ -8583,6 +8583,7 @@ MonoBehaviour:
   onDialogueComplete:
     m_PersistentCalls:
       m_Calls: []
+  lastGoto: -1
   dialogue:
   - emitterName: Cassie
     text: I wonder what used to be on here
@@ -12029,6 +12030,7 @@ MonoBehaviour:
   onDialogueComplete:
     m_PersistentCalls:
       m_Calls: []
+  lastGoto: -1
   dialogue:
   - emitterName: Cassie
     text: Ugh, these shelves are broken.
@@ -12484,6 +12486,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  lastGoto: -1
   dialogue:
   - emitterName: Brady
     text: uhh, cassie. I hate to break it to you, but this place looks robbed.
@@ -12522,6 +12525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 574131166}
+  Axis: {x: 0, y: 0, z: 0}
 --- !u!212 &730878014
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12647,6 +12651,7 @@ MonoBehaviour:
   curPos: {x: 0, y: 0, z: 0}
   positionDelta: {x: 0, y: 0, z: 0}
   facingLeft: 0
+  useInputForVelocityCalc: 0
 --- !u!95 &730878019
 Animator:
   serializedVersion: 4
@@ -23572,6 +23577,7 @@ MonoBehaviour:
   onDialogueComplete:
     m_PersistentCalls:
       m_Calls: []
+  lastGoto: -1
   dialogue:
   - emitterName: Cassie
     text: huh, I wonder what's in these.
@@ -23788,12 +23794,12 @@ PrefabInstance:
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018954076
+      value: 0.000000018954076
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003288985
+      value: -0.000000003288985
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
@@ -23818,12 +23824,12 @@ PrefabInstance:
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018954076
+      value: 0.000000018954076
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003288985
+      value: -0.000000003288985
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425426, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
@@ -23938,6 +23944,11 @@ PrefabInstance:
     - target: {fileID: 6259028439466685252, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813079976804785190, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: type
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -28207,6 +28218,7 @@ MonoBehaviour:
   onDialogueComplete:
     m_PersistentCalls:
       m_Calls: []
+  lastGoto: -1
   dialogue:
   - emitterName: Cassie
     text: That's a lot of stuff we can sell!
@@ -28652,6 +28664,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  lastGoto: -1
   dialogue:
   - emitterName: Alfred
     text: Oh im so worried!
@@ -28690,6 +28703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 574131166}
+  Axis: {x: 0, y: 0, z: 0}
 --- !u!212 &2113809207
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -28793,6 +28807,7 @@ MonoBehaviour:
   curPos: {x: 0, y: 0, z: 0}
   positionDelta: {x: 0, y: 0, z: 0}
   facingLeft: 0
+  useInputForVelocityCalc: 0
 --- !u!95 &2113809211
 Animator:
   serializedVersion: 4
