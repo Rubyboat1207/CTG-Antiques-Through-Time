@@ -24,8 +24,11 @@ EditorBuildSettings:
     path: Assets/Scenes/China.unity
     guid: 0ed67760a4e34e94aa50de79ea7e4e3b
   - enabled: 1
-    path: Assets/ChinaInterior.unity
+    path: Assets/Scenes/ChinaInterior.unity
     guid: 3b2fec5bcdc5d2c4ca7e74ed07cc7b52
+  - enabled: 1
+    path: Assets/Scenes/ChinaRooftop.unity
+    guid: 7aa09349b4fce9b45a4a68e68b691e89
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05

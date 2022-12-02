@@ -29664,7 +29664,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh228118
+  m_Name: pb_Mesh59804
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34213,7 +34213,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh227946
+  m_Name: pb_Mesh53474
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -41630,7 +41630,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh227840
+  m_Name: pb_Mesh53334
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -43091,7 +43091,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh227996
+  m_Name: pb_Mesh59608
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -48288,7 +48288,7 @@ MonoBehaviour:
   isInteractable: 1
   Texture: {fileID: 21300000, guid: 94bfb6dd226ed604fafd8caf04495384, type: 3}
   PreviouslyAquiredTexture: {fileID: 0}
-  ArtifactName: Sponbob
+  ArtifactName: The God of Time
   shouldDelete: 1
   StartingPosition: {x: -2.734, y: 10.024, z: 0.652}
   bobHeight: 0.1
@@ -48680,7 +48680,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh228090
+  m_Name: pb_Mesh59764
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -53622,7 +53622,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh227878
+  m_Name: pb_Mesh59436
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
