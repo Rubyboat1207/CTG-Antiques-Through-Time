@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class AztecStairs : MonoBehaviour
 {
+    public UnityEvent OnComplete = new UnityEvent();
     public bool a = false;
     public void TryMakeVisibleA()
     {
@@ -20,6 +22,9 @@ public class AztecStairs : MonoBehaviour
     {
         GetComponent<Collider>().enabled = a && b;
         GetComponent<Renderer>().enabled = a && b;
-
+        if(a && b)
+        {
+            OnComplete.Invoke();
+        }
     }
 }
