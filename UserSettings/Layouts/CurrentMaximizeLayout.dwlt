@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 36773
+  controlID: 37171
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 36774
+  controlID: 37172
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 36775
+  controlID: 37173
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,10 +225,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 39.600006}
-      m_SelectedIDs: d84efaff
-      m_LastClickedID: -373032
-      m_ExpandedIDs: 6685fbff028ffbffaa92fbff3cedfbff5a66fcff4e67fcffa09cfcffc69cfcff209efcff289c0100849c01005ca8010030d801000cd90100
+      scrollPos: {x: 0, y: 23.600006}
+      m_SelectedIDs: 8c300500
+      m_LastClickedID: 340108
+      m_ExpandedIDs: f641f9ff8844f9fff248f9ff884df9ff1a50f9ff3c54f9ffe0b9f9ff72bcf9ff14daf9ff3adaf9ff94dbf9ff10e5f9ff36eaf9ff326ffbff6685fbff028ffbffaa92fbff3cedfbff5a66fcff4e67fcffa09cfcffc69cfcff209efcff289c0100849c01005ca8010030d801000cd90100403105001e330500
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -244,7 +244,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 17}
+        m_ClientGUIView: {fileID: 5}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -603,7 +603,7 @@ MonoBehaviour:
       index: 10
       layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 1
+  m_Gizmos: 0
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -612,9 +612,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 26.144114, y: 192.87715, z: -12.924003}
+    m_Target: {x: 5.705943, y: 2.21923, z: 28.673344}
     speed: 2
-    m_Value: {x: 26.144163, y: 192.87717, z: -12.924021}
+    m_Value: {x: 5.705884, y: 2.2192154, z: 28.673222}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -661,13 +661,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.45114318, y: 0.029460084, z: -0.014860888, w: 0.8918847}
+    m_Target: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.45116833, y: 0.026783269, z: -0.0135068735, w: 0.8919347}
+    m_Value: {x: 0, y: 0.70709497, z: 0, w: 0.70711863}
   m_Size:
-    m_Target: 67.6636
+    m_Target: 3.5488465
     speed: 2
-    m_Value: 67.6636
+    m_Value: 3.548881
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -762,21 +762,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/mats
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/mats
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\rudy\OneDrive\Desktop\unity\CTG-Antiques-Through-Time
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: c6850000
-    m_LastClickedID: 34246
+    m_SelectedIDs: d0850000
+    m_LastClickedID: 34256
     m_ExpandedIDs: 0000000054850000568500005885000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -793,7 +793,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -830,8 +830,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: d84efaff
-    m_LastClickedInstanceID: -373032
+    m_SelectedInstanceIDs: 8c300500
+    m_LastClickedInstanceID: 340108
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300009a7f0000
     m_RenameOverlay:
@@ -857,7 +857,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 87.600006}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -946,7 +946,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 36663
+  controlID: 37087
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52

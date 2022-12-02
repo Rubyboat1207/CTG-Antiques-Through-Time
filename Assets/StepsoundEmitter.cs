@@ -42,7 +42,6 @@ public class StepsoundEmitter : MonoBehaviour
                 int i = GetSubMeshIndex(mesh, hit.triangleIndex);
                 var mats = new List<Material>();
                 rend.GetSharedMaterials(mats);
-                print(rend.gameObject.name);
                 Material mat = mats[i];
                 StepMaterial clip;
                 if(m_Sounds.TryGetValue(mat, out clip))

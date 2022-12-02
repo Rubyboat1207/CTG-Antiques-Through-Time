@@ -33,7 +33,7 @@ public class TargetHandlers : MonoBehaviour
         }
         if(changed)
         {
-            print("hehehehehehe");
+            print("changed because of " + potentalTarget.name);
             Evaluate();
         }
     }

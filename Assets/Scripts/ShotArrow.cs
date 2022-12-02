@@ -17,6 +17,7 @@ public class ShotArrow : MonoBehaviour
     {
         if(collision.gameObject.tag == "target")
         {
+            print("TEST");
             collided = true;
             TargetHandlers.instance.hitTarget(collision.gameObject);
         }
