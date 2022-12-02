@@ -12,7 +12,7 @@ public class AgentMovePoints : MonoBehaviour
     public void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        print(agent.SetDestination(points[currentPoint].position));
+        agent.SetDestination(points[currentPoint].position);
     }
 
     public void Update()
