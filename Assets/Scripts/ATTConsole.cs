@@ -17,22 +17,26 @@ public class ATTConsole : MonoBehaviour
     {
         Instance = this;
         setVisibility(visible);
-        if (!RTConsole.Singleton.HasConVar<int>("pl_model"))
-        {
-            TypedConVar<int>.RegisterConVar("pl_model", 0);
-            TypedConVar<bool>.RegisterConVar("sv_cheats", false);
-            PersistantDataHolder.Instance.ConFuncs.Add("noclip", (name) => {
-                if (RTConsole.Singleton)
-                    noclip = !noclip;
-                PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;
-            });
-            TypedConVar<int>.RegisterConVar("mapid", SceneManager.GetActiveScene().buildIndex);
-            registered = true;
-        }
+        Startup();
     }
 
     // Update is called once per frame
     void Update()
+    {
+        Startup();
+        if (Input.GetKeyDown(KeyCode.BackQuote) || Input.GetKeyDown(KeyCode.Tilde))
+        {
+            visible = !visible;
+            print(visible);
+            setVisibility(visible);
+        }
+        if (SceneManager.GetActiveScene().buildIndex != RTConsole.Singleton.GetConVar<int>("mapid").Value)
+        {
+            SceneManager.LoadScene(RTConsole.Singleton.GetConVar<int>("mapid").Value);
+        }
+    }
+
+    void Startup()
     {
         if (!RTConsole.Singleton.HasConVar<int>("pl_model"))
         {
@@ -44,15 +48,9 @@ public class ATTConsole : MonoBehaviour
                 PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;
             });
             TypedConVar<int>.RegisterConVar("mapid", SceneManager.GetActiveScene().buildIndex);
+            TypedConVar<float>.RegisterConVar("master_vol", 1);
+            TypedConVar<float>.RegisterConVar("music_vol", 1);
             registered = true;
-        }
-        if (Input.GetKeyDown(KeyCode.BackQuote) || Input.GetKeyDown(KeyCode.Tilde)) {
-            visible = !visible;
-            print(visible);
-            setVisibility(visible);
-        }
-        if(SceneManager.GetActiveScene().buildIndex != RTConsole.Singleton.GetConVar<int>("mapid").Value) {
-            SceneManager.LoadScene(RTConsole.Singleton.GetConVar<int>("mapid").Value);
         }
     }
 

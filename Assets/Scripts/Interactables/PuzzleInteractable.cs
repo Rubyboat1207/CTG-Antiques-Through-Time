@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using Cinemachine;
 
+[RequireComponent(typeof(AudioSource))]
 // TODO: Switch to toggleable for when the completion is done
 public class PuzzleInteractable : ToggleableInteractable
 {
@@ -94,6 +95,8 @@ public class PuzzleInteractable : ToggleableInteractable
     public virtual void OnPuzzleComplete() {
         OnPuzzleExit.Invoke(true, gameObject);
         OnPuzzleCorrect.Invoke();
+        GetComponent<AudioSource>().clip = Resources.Load<AudioClip>("Sound/p_correct");
+        GetComponent<AudioSource>().Play();
     }
 
     public new void Update()

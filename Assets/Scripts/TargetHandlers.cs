@@ -14,6 +14,7 @@ public class TargetHandlers : MonoBehaviour
     }
     [SerializeField] List<Target> targets;
     public UnityEvent Hit = new UnityEvent();
+    public AudioSource blip;
 
     private void Start()
     {
@@ -27,6 +28,8 @@ public class TargetHandlers : MonoBehaviour
         {
             if(target.transform == potentalTarget.transform)
             {
+                if (target.hasBeenHit)
+                    return;
                 changed = true;
                 target.hasBeenHit = true;
             }
@@ -34,6 +37,8 @@ public class TargetHandlers : MonoBehaviour
         if(changed)
         {
             print("changed because of " + potentalTarget.name);
+            blip.Play();
+            blip.pitch += 0.1f;
             Evaluate();
         }
     }

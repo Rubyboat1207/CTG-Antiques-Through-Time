@@ -314,8 +314,8 @@ GameObject:
   - component: {fileID: 2633434968133118918}
   - component: {fileID: 2633434968133118919}
   - component: {fileID: 2633434968133118937}
-  - component: {fileID: 2633434968133118936}
   - component: {fileID: 2640812092474954657}
+  - component: {fileID: 8952701266985729675}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -411,18 +411,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnterButton: {fileID: 2633434968197605543}
   Input: {fileID: 0}
---- !u!114 &2633434968133118936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2633434968133118939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aba93242eb033bd4ba83cb67520e2211, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2640812092474954657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -436,6 +424,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noclip: 0
+--- !u!114 &8952701266985729675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633434968133118939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aba93242eb033bd4ba83cb67520e2211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2633434968197605561
 GameObject:
   m_ObjectHideFlags: 0

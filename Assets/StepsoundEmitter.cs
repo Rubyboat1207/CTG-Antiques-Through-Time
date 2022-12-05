@@ -13,6 +13,7 @@ public class StepsoundEmitter : MonoBehaviour
     public class StepMaterial
     {
         public Material material;
+        public float volume = 0.4f;
         public AudioClip stepSound;
     }
     public List<StepMaterial> tempSteps = new List<StepMaterial>();
@@ -47,11 +48,15 @@ public class StepsoundEmitter : MonoBehaviour
                 if(m_Sounds.TryGetValue(mat, out clip))
                 {
                     source.clip = clip.stepSound;
+                    source.volume = clip.volume;
                 }else if(genericClip != null)
                 {
                     source.clip = genericClip;
-                }else
+                    source.volume = 0.4f;
+                }
+                else
                 {
+                    source.clip = null;
                     source.Stop();
                 }
                 if(!source.isPlaying)

@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+[RequireComponent(typeof(AudioSource))]
 public class FlagPuzzle : PuzzleInteractable
 {
     [SerializeField] int selectedPiece = -1;
     [SerializeField] LayerMask ignoreRaycast;
+    [SerializeField] AudioClip clip;
 
     public new void Start()
     {
@@ -58,6 +60,8 @@ public class FlagPuzzle : PuzzleInteractable
                         Vector3 op = transform.GetChild(selectedPiece).position;
                         transform.GetChild(selectedPiece).position = hit.transform.position;
                         hit.transform.position = op;
+                        GetComponent<AudioSource>().clip = clip;
+                        GetComponent<AudioSource>().Play();
                         selectedPiece = -1;
                     }
                     if(EvalPieces())
