@@ -11,7 +11,7 @@ public class PlayerMove : MonoBehaviour
     // [SerializeField] means it shows up in the editor, even if its private
     public float speed = 5;
     public float jumpForce = 5;
-    float yVelocity = 0;
+    [SerializeField] float yVelocity = 0;
     public bool canMove = true;
 
     CharacterController cc;

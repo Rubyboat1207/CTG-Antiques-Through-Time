@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ChinaRooftop.unity
     guid: 7aa09349b4fce9b45a4a68e68b691e89
   - enabled: 1
+    path: Assets/Scenes/CuckooAnim.unity
+    guid: 9fcbc1acc98fcf8418a977ba80f22aa2
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1

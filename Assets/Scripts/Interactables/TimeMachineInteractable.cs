@@ -7,6 +7,6 @@ public class TimeMachineInteractable : Interactable
     public override void Interact()
     {
         base.Interact();
-        RTConsole.Singleton.GetConVar<int>("mapid").value = 3;
+        RTConsole.Singleton.GetConVar<int>("mapid").value = 8;
     }
 }
