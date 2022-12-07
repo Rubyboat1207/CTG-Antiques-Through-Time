@@ -13,7 +13,7 @@ public class PlayerMove : MonoBehaviour
     public float jumpForce = 5;
     [SerializeField] float yVelocity = 0;
     public bool canMove = true;
-
+    PlayerStatHandler playerStatHandler;
     CharacterController cc;
     void Start() {
         if(Instance == null)
@@ -21,6 +21,7 @@ public class PlayerMove : MonoBehaviour
             Instance = this;
         }
         cc = GetComponent<CharacterController>();
+        playerStatHandler = GetComponent<PlayerStatHandler>();
     }
 
 
@@ -50,9 +51,18 @@ public class PlayerMove : MonoBehaviour
 
             // Make moving no longer dependant on the frame rate
             Vector3 frameAdjustedMovement = inputVector * Time.deltaTime;
+            float calcspeed = speed;
+            if (playerStatHandler.stats[(int)playerStatHandler.type].abilities.Contains("cansprint"))
+            {
+                GetComponent<StepParticleEmitter>().tick();
+                if (Input.GetKey(KeyCode.LeftShift))
+                {
+                    calcspeed *= 1.5f;
+                }
+            }
 
             // use our speed variable
-            Vector3 finalVector = frameAdjustedMovement * speed;
+            Vector3 finalVector = frameAdjustedMovement * calcspeed;
 
             if(SimplePlayerMove) {
                 finalVector.y = ((Input.GetKey(KeyCode.Space) ? 1 : 0) - (Input.GetKey(KeyCode.LeftShift) ? 1 : 0)) * Time.deltaTime * speed;

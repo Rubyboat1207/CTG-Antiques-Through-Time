@@ -12,10 +12,11 @@ public class PlayerStatHandler : MonoBehaviour
     public PlayerType type;
 
     [System.Serializable]
-    public struct PlayerStat {
+    public class PlayerStat {
         public PlayerType id;
         public float speed;
         public float jumpheight;
+        public List<string> abilities = new List<string>();
     }
 
     public PlayerStat[] stats;

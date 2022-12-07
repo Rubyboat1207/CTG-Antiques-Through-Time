@@ -91294,6 +91294,16 @@ PrefabInstance:
       propertyPath: stats.Array.data[0].speed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8813079976804785190, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: stats.Array.data[0].abilities.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8813079976804785190, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: stats.Array.data[0].abilities.Array.data[0]
+      value: cansprint
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a354294a87be3354eb6ca5b5738f66ec, type: 3}
 --- !u!20 &1961887632 stripped

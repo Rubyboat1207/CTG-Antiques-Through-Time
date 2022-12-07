@@ -52,7 +52,7 @@ public class ConInp : MonoBehaviour
 
     void runConFunc(string input) {
         try {
-            if(PersistantDataHolder.Instance.ConFuncs.ContainsKey(input)) {
+            if(PersistantDataHolder.Instance.ConFuncs.ContainsKey(input.Split(' ')[0])) {
                 PersistantDataHolder.Instance.ConFuncs[input].Invoke(input);
             }else {
                 ConOut.Singleton.write("function " + input + " was not found");
