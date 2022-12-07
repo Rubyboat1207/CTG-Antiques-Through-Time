@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -23771,11 +23771,6 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 36.11
       objectReference: {fileID: 0}
-    - target: {fileID: 478248434402882323, guid: a354294a87be3354eb6ca5b5738f66ec,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: bb5b212dc09d3ce4fba2b16ce16b8eb0, type: 3}
     - target: {fileID: 1560838653856171704, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
@@ -23804,12 +23799,12 @@ PrefabInstance:
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018954076
+      value: 0.000000018954076
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421181842383, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003288985
+      value: -0.000000003288985
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
@@ -23834,12 +23829,12 @@ PrefabInstance:
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000018954076
+      value: 0.000000018954076
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425425, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000003288985
+      value: -0.000000003288985
       objectReference: {fileID: 0}
     - target: {fileID: 1947952421280425426, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
