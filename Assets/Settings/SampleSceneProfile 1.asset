@@ -33,10 +33,10 @@ MonoBehaviour:
     m_Value: 10
   aperture:
     m_OverrideState: 1
-    m_Value: 6.4
+    m_Value: 6.7
   focalLength:
     m_OverrideState: 1
-    m_Value: 105
+    m_Value: 133
   bladeCount:
     m_OverrideState: 0
     m_Value: 5
@@ -83,10 +83,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.188
+    m_Value: 0.39
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.538
+    m_Value: 0.692
   rounded:
     m_OverrideState: 0
     m_Value: 0
@@ -108,10 +108,10 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 13.7
+    m_Value: 3.05
   scatter:
     m_OverrideState: 1
-    m_Value: 0.872
+    m_Value: 0.88
   clamp:
     m_OverrideState: 0
     m_Value: 65472
@@ -166,11 +166,11 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: {x: 0.4172513, y: 0.53454787, z: 1, w: 0}
   midtones:
-    m_OverrideState: 0
-    m_Value: {x: 0.90765846, y: 0.985367, z: 1, w: 0}
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.9171424, z: 0.77019125, w: 0}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9454945, z: 0.700721, w: 0}
+    m_Value: {x: 1, y: 0.9512073, z: 0.7235606, w: 0}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
