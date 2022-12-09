@@ -11077,7 +11077,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1416918
+  m_Name: pb_Mesh-661850
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25323,6 +25323,9 @@ MonoBehaviour:
   OnPuzzleCorrect:
     m_PersistentCalls:
       m_Calls: []
+  OnPuzzleOpen:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!64 &398662073
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -25740,6 +25743,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnPuzzleCorrect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPuzzleOpen:
     m_PersistentCalls:
       m_Calls: []
 --- !u!64 &402300201
@@ -26287,6 +26293,7 @@ MonoBehaviour:
       use books to remember the code. I'd recommend a bit of light reading...
   activeBM: {fileID: 0}
   page: 0
+  shouldOpenNotebook: 0
 --- !u!82 &427326757
 AudioSource:
   m_ObjectHideFlags: 0
@@ -28811,6 +28818,9 @@ MonoBehaviour:
   OnPuzzleCorrect:
     m_PersistentCalls:
       m_Calls: []
+  OnPuzzleOpen:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!64 &535199688
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -29414,7 +29424,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1417120
+  m_Name: pb_Mesh100300
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29722,7 +29732,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1417052
+  m_Name: pb_Mesh100056
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -30435,6 +30445,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnPuzzleCorrect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPuzzleOpen:
     m_PersistentCalls:
       m_Calls: []
 --- !u!64 &613274956
@@ -32313,6 +32326,9 @@ MonoBehaviour:
   OnPuzzleCorrect:
     m_PersistentCalls:
       m_Calls: []
+  OnPuzzleOpen:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!64 &669977058
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -32831,6 +32847,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnPuzzleCorrect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPuzzleOpen:
     m_PersistentCalls:
       m_Calls: []
 --- !u!64 &684280607
@@ -33404,6 +33423,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
         type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
+        type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -33411,6 +33435,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPuzzleExit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
+        type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
         type: 3}
@@ -33424,12 +33453,22 @@ PrefabInstance:
       objectReference: {fileID: 223842576}
     - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
         type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1961887633}
+    - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
+        type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 223842576}
     - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
         type: 3}
       propertyPath: OnPuzzleExit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
+        type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
@@ -33444,6 +33483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
         type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QueueTooltipFront
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
+        type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OpenDoor
       objectReference: {fileID: 0}
@@ -33454,12 +33498,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
         type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TooltipManager, ATT
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
+        type: 3}
       propertyPath: onInteracted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: LibraryDoor, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
         type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 'Puzzle Tips: use left and horizontal arrow keys to switch dials and
+        vertical to go to the next value'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
+        type: 3}
       propertyPath: OnPuzzleExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
+        type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5058379879754407770, guid: 27a37c669a8f17c40832b9218affc886,
@@ -38136,7 +38196,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1416956
+  m_Name: pb_Mesh-661888
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38508,6 +38568,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnPuzzleCorrect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPuzzleOpen:
     m_PersistentCalls:
       m_Calls: []
 --- !u!64 &840539568
@@ -39183,7 +39246,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1417096
+  m_Name: pb_Mesh99368
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -41372,7 +41435,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1417108
+  m_Name: pb_Mesh100142
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -42644,6 +42707,7 @@ MonoBehaviour:
       -The House of Wisdom'
   activeBM: {fileID: 0}
   page: 0
+  shouldOpenNotebook: 0
 --- !u!82 &977351710
 AudioSource:
   m_ObjectHideFlags: 0
@@ -46518,6 +46582,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnPuzzleCorrect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPuzzleOpen:
     m_PersistentCalls:
       m_Calls: []
 --- !u!64 &1014138100
@@ -51965,7 +52032,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1417066
+  m_Name: pb_Mesh100562
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -52129,7 +52196,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh636446
+  m_Name: pb_Mesh434302
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -52791,7 +52858,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1417132
+  m_Name: pb_Mesh100914
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -53277,6 +53344,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1961887634}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   pages:
   - Title: Notes on Cyphering
     Content: 'during my travels i have found many ciphers. 3 of these being the most
@@ -53303,6 +53382,7 @@ MonoBehaviour:
       your offset number seperate from the letters like its proceeding page if possible.
   activeBM: {fileID: 0}
   page: 0
+  shouldOpenNotebook: 1
 --- !u!82 &1294771990
 AudioSource:
   m_ObjectHideFlags: 0
@@ -53897,7 +53977,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1416976
+  m_Name: pb_Mesh-661908
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -62494,7 +62574,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1417084
+  m_Name: pb_Mesh100136
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -82689,7 +82769,7 @@ PrefabInstance:
     - target: {fileID: 7917624983167241944, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 953
+      value: 956
       objectReference: {fileID: 0}
     - target: {fileID: 7917624983167241945, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -82719,7 +82799,7 @@ PrefabInstance:
     - target: {fileID: 7917624983323641339, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 886
+      value: 889
       objectReference: {fileID: 0}
     - target: {fileID: 7917624983323641343, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -82734,7 +82814,7 @@ PrefabInstance:
     - target: {fileID: 7917624983361761201, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 892
+      value: 895
       objectReference: {fileID: 0}
     - target: {fileID: 7917624983361761203, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -82774,7 +82854,7 @@ PrefabInstance:
     - target: {fileID: 7917624983785876334, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 1191
+      value: 1194
       objectReference: {fileID: 0}
     - target: {fileID: 7917624983785876335, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -82933,8 +83013,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
       propertyPath: OnPuzzleExit.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -82943,7 +83033,17 @@ PrefabInstance:
       objectReference: {fileID: 223842576}
     - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1961887633}
+    - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
       propertyPath: OnPuzzleExit.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
@@ -82953,12 +83053,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QueueTooltipFront
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
       propertyPath: OnPuzzleExit.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: LibraryDoor, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TooltipManager, ATT
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 'Puzzle Tips: Click on the books in the correct order'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
       propertyPath: OnPuzzleExit.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917624984112471963, guid: a1b1d1351bddcc24292d3bc3c7726511,
+        type: 3}
+      propertyPath: OnPuzzleOpen.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984267096817, guid: a1b1d1351bddcc24292d3bc3c7726511,
@@ -82994,7 +83114,7 @@ PrefabInstance:
     - target: {fileID: 7917624984352794549, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 889
+      value: 892
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984352794551, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -83019,7 +83139,7 @@ PrefabInstance:
     - target: {fileID: 7917624984392178426, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 892
+      value: 895
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984392178430, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -83094,7 +83214,7 @@ PrefabInstance:
     - target: {fileID: 7917624984926730954, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
       propertyPath: m_VersionIndex
-      value: 895
+      value: 898
       objectReference: {fileID: 0}
     - target: {fileID: 7917624984926730958, guid: a1b1d1351bddcc24292d3bc3c7726511,
         type: 3}
@@ -87648,6 +87768,9 @@ MonoBehaviour:
   OnPuzzleCorrect:
     m_PersistentCalls:
       m_Calls: []
+  OnPuzzleOpen:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!64 &1817145064
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -89212,6 +89335,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   OnPuzzleCorrect:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPuzzleOpen:
     m_PersistentCalls:
       m_Calls: []
 --- !u!64 &1886349063
@@ -91309,6 +91435,24 @@ PrefabInstance:
 --- !u!20 &1961887632 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 1947952421280425426, guid: a354294a87be3354eb6ca5b5738f66ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1961887631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1961887633 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3498529175103460477, guid: a354294a87be3354eb6ca5b5738f66ec,
+    type: 3}
+  m_PrefabInstance: {fileID: 1961887631}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00804167533363740b486bfa955886aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1961887634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4862672067946091664, guid: a354294a87be3354eb6ca5b5738f66ec,
     type: 3}
   m_PrefabInstance: {fileID: 1961887631}
   m_PrefabAsset: {fileID: 0}
@@ -98206,7 +98350,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1416854
+  m_Name: pb_Mesh-661786
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -98680,7 +98824,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1416938
+  m_Name: pb_Mesh-661870
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

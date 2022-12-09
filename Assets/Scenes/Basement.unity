@@ -23901,6 +23901,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3498529175103460477, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: Queue.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3498529175103460477, guid: a354294a87be3354eb6ca5b5738f66ec,
+        type: 3}
+      propertyPath: Queue.Array.data[0]
+      value: use WASD or arrow keys to move around
+      objectReference: {fileID: 0}
     - target: {fileID: 4988268635254333420, guid: a354294a87be3354eb6ca5b5738f66ec,
         type: 3}
       propertyPath: m_Name

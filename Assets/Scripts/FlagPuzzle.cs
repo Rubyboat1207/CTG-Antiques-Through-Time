@@ -11,36 +11,19 @@ public class FlagPuzzle : PuzzleInteractable
     public new void Start()
     {
         base.Start();
-        List<int> scrambled = new List<int>();
-        int i = 0;
-        foreach(Transform child in transform)
-        {
-            if(child.name == "Focus")
-            {
-                continue;
-            }
-            scrambled.Add(i);
-            i++;
-        }
-        for(i = 0; i < scrambled.Count; i++)
-        {
-            int r = Random.Range(0, scrambled.Count);
-            int o = scrambled[i];
-            scrambled[i] = scrambled[r];
-            scrambled[r] = o;
-        }
-        for (i = 0; i < scrambled.Count - 1; i++)
-        {
-            Vector3 op = transform.GetChild(scrambled[i]).position;
-            transform.GetChild(scrambled[i]).position = transform.GetChild(scrambled[i + 1]).position;
-            transform.GetChild(scrambled[i + 1]).position = op;
-        }
+        Scramble();
     }
 
     public override void WhilePuzzleOpen()
     {
         base.WhilePuzzleOpen();
-        if(Input.GetMouseButtonDown(0))
+        if (EvalPieces())
+        {
+            isInteractable = false;
+            ClosePuzzle();
+            OnPuzzleComplete();
+        }
+        if (Input.GetMouseButtonDown(0))
         {
             print("shot");
             Camera cam = Camera.main;
@@ -64,14 +47,13 @@ public class FlagPuzzle : PuzzleInteractable
                         GetComponent<AudioSource>().Play();
                         selectedPiece = -1;
                     }
-                    if(EvalPieces())
-                    {
-                        isInteractable = false;
-                        ClosePuzzle();
-                        OnPuzzleComplete();
-                    }
+                    
                 }
             }
+        }
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            Scramble();
         }
     }
 
@@ -86,5 +68,33 @@ public class FlagPuzzle : PuzzleInteractable
             }
         }
         return true;
+    }
+
+    void Scramble()
+    {
+        List<int> scrambled = new List<int>();
+        int i = 0;
+        foreach (Transform child in transform)
+        {
+            if (child.name == "Focus")
+            {
+                continue;
+            }
+            scrambled.Add(i);
+            i++;
+        }
+        for (i = 0; i < scrambled.Count; i++)
+        {
+            int r = Random.Range(0, scrambled.Count);
+            int o = scrambled[i];
+            scrambled[i] = scrambled[r];
+            scrambled[r] = o;
+        }
+        for (i = 0; i < scrambled.Count - 1; i++)
+        {
+            Vector3 op = transform.GetChild(scrambled[i]).position;
+            transform.GetChild(scrambled[i]).position = transform.GetChild(scrambled[i + 1]).position;
+            transform.GetChild(scrambled[i + 1]).position = op;
+        }
     }
 }

@@ -13,6 +13,6 @@ public class FlagPuzzlePiece : MonoBehaviour
 
     public bool isInOriginalPlace()
     {
-        return originalPos == transform.position;
+        return (originalPos - transform.position).magnitude < 0.2;
     }
 }

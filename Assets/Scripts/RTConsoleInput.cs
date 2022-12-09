@@ -15,6 +15,7 @@ public class RTConsoleInput : MonoBehaviour
     public List<string> prevEntries = new List<string>();
     bool skipframe = false;
     public bool arrows = true;
+    public List<char> allowedChars = new List<char>(" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+-=<>?,./[]{}\\".ToCharArray());
 
     private void Start()
     {
@@ -34,7 +35,7 @@ public class RTConsoleInput : MonoBehaviour
             skipframe = false;
             return;
         }
-        string inputString = Input.inputString.Replace("`", "").Replace("", "").Replace(Environment.NewLine, "");
+        string inputString = SanitizeInput(Input.inputString.Replace(Environment.NewLine, ""));
 
         if (SelectedArea.x != SelectedArea.y)
         {
@@ -98,7 +99,6 @@ public class RTConsoleInput : MonoBehaviour
         //Should Occur at the end
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            text = text.Substring(0, text.Length - 1);
             Submitted.Invoke(text);
             prevEntries.Add(text);
             entryCount = prevEntries.Count;
@@ -141,5 +141,22 @@ public class RTConsoleInput : MonoBehaviour
             SelectedArea.x = Mathf.Min(SelectedArea.x, SelectedArea.y);
             SelectedArea.y = SelectedArea.x;
         }
+    }
+
+    string SanitizeInput(string input)
+    {
+        char[] chars = input.ToCharArray();
+        string output = "";
+        foreach(char ch in chars)
+        {
+            if(ch == ' ')
+            {
+                output += " ";
+            }
+
+            if(allowedChars.Contains(ch))
+                output += ch;
+        }
+        return output;
     }
 }

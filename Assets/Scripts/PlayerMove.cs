@@ -46,8 +46,7 @@ public class PlayerMove : MonoBehaviour
             // Grab the direct input from the user
             Vector3 inputVector = (Input.GetAxis("Vertical") * transform.forward) + (Input.GetAxis("Horizontal") * transform.right);
 
-            //Apply Jump
-            inputVector.y = yVelocity;
+            
 
             // Make moving no longer dependant on the frame rate
             Vector3 frameAdjustedMovement = inputVector * Time.deltaTime;
@@ -60,11 +59,23 @@ public class PlayerMove : MonoBehaviour
                     calcspeed *= 1.5f;
                 }
             }
+            if (playerStatHandler.stats[(int)playerStatHandler.type].abilities.Contains("bhop"))
+            {
+                if (!cc.isGrounded)
+                {
+                    calcspeed *= 1.35f;
+                }
+            }
+            
 
             // use our speed variable
             Vector3 finalVector = frameAdjustedMovement * calcspeed;
 
-            if(SimplePlayerMove) {
+            //Apply Jump
+            finalVector.y = yVelocity * Time.deltaTime * 6;
+
+
+            if (SimplePlayerMove) {
                 finalVector.y = ((Input.GetKey(KeyCode.Space) ? 1 : 0) - (Input.GetKey(KeyCode.LeftShift) ? 1 : 0)) * Time.deltaTime * speed;
                 transform.Translate(finalVector);
             }else{

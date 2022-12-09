@@ -18,6 +18,7 @@ public class PuzzleInteractable : ToggleableInteractable
     Vector3 prevCamPos;
     public UnityEvent<bool, GameObject> OnPuzzleExit = new UnityEvent<bool, GameObject>();
     public UnityEvent OnPuzzleCorrect = new UnityEvent();
+    public UnityEvent OnPuzzleOpen = new UnityEvent();
 
     public override void Interact()
     {
@@ -41,6 +42,7 @@ public class PuzzleInteractable : ToggleableInteractable
 
     public virtual void ClosePuzzle()
     {
+        PlayerMove.Instance.GetComponent<Renderer>().enabled = true;
         isInteractable = true;
         focused = false;
         CinemachineVirtualCamera cam = GameObject.Find("CM vcam1").GetComponent<CinemachineVirtualCamera>();
@@ -65,6 +67,7 @@ public class PuzzleInteractable : ToggleableInteractable
 
     public virtual void OnOpenPuzzle()
     {
+        PlayerMove.Instance.GetComponent<Renderer>().enabled = false;
         CinemachineVirtualCamera cam = GameObject.Find("CM vcam1").GetComponent<CinemachineVirtualCamera>();
         OldOffset = cam.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset;
         if(cam.Follow == null)
@@ -82,6 +85,7 @@ public class PuzzleInteractable : ToggleableInteractable
             prevCamPos = cam.transform.position;
         }
         ReorientCamera(cam);
+        OnPuzzleOpen.Invoke();
     }
 
     public void ReorientCamera(CinemachineVirtualCamera cam)

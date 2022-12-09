@@ -42,12 +42,20 @@ public class ConInp : MonoBehaviour
 
     void setConVar(string input) {
         var args = input.Split(' ');
-        ConVar ConVar = RTConsole.Singleton.GetConVar(args[0]);
-        List<string> strList = new List<string>(args);
-        strList.RemoveAt(0);
-        var val = string.Join(" ", strList);
+        try
+        {
+            ConVar ConVar = RTConsole.Singleton.GetConVar(args[0]);
+            List<string> strList = new List<string>(args);
+            strList.RemoveAt(0);
+            var val = string.Join(" ", strList);
 
-        ConUtils.InterpretFromString(val, ConVar.Type, ConVar);
+            ConUtils.InterpretFromString(args[1], ConVar.Type, ConVar);
+        }
+        catch
+        {
+            ConOut.Singleton.write("convar " + args[0] + " was not found");
+        }
+        
     }
 
     void runConFunc(string input) {

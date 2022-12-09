@@ -8,16 +8,18 @@ using UnityEngine;
 public class MasterVolumeController : MonoBehaviour
 {
     AudioSource source;
+    float originalMusicVolume;
 
     private void Start()
     {
         source = GetComponent<AudioSource>();
+        originalMusicVolume = source.volume;
     }
 
     void Update()
     {
         AudioListener.volume = RTConsole.Singleton.GetConVar<float>("master_vol").value;
-        source.volume = RTConsole.Singleton.GetConVar<float>("music_vol").value;
+        source.volume = originalMusicVolume * RTConsole.Singleton.GetConVar<float>("music_vol").value;
     }
 
     public void SetMaster(float master)
