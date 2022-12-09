@@ -38,7 +38,7 @@ public class ATTConsole : MonoBehaviour
 
     void Startup()
     {
-        if (!RTConsole.Singleton.HasConVar<int>("pl_model"))
+        if (!RTConsole.Singleton.IsRegistered<int>("pl_model"))
         {
             TypedConVar<int>.RegisterConVar("pl_model", 0);
             TypedConVar<bool>.RegisterConVar("sv_cheats", false);
@@ -46,10 +46,13 @@ public class ATTConsole : MonoBehaviour
                 if (RTConsole.Singleton)
                     noclip = !noclip;
                 PlayerMove.Instance.SimplePlayerMove = ATTConsole.Instance.noclip;
+                Debug.Log("Noclip");
+                ConOut.Singleton.write("Noclip toggled");
             });
             TypedConVar<int>.RegisterConVar("mapid", SceneManager.GetActiveScene().buildIndex);
             TypedConVar<float>.RegisterConVar("master_vol", 1);
             TypedConVar<float>.RegisterConVar("music_vol", 1);
+
             registered = true;
         }
     }

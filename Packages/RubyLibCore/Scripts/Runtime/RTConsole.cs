@@ -66,7 +66,9 @@ public class RTConsole : MonoBehaviour
         }
     }
 
-    public bool HasConVar<T>(string name)
+
+
+    public bool IsRegistered<T>(string name)
     {
         if (PersistantDataHolder.Instance.ConVars.ContainsKey(name))
         {
@@ -98,6 +100,11 @@ public class ConVar {
         get {
             return type;
         }
+    }
+
+    public static TypedConVar<T> Get<T>(string name)
+    {
+        return RTConsole.Singleton.GetConVar<T>(name);
     }
 }
 
@@ -140,4 +147,5 @@ public class TypedConVar<T> : ConVar
         }
         
     }
+
 }
