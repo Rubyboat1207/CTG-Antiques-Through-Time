@@ -7,12 +7,13 @@ using UnityEngine.SceneManagement;
 public class SpeedrunTimerConsoleExtension : MonoBehaviour
 {
     string speedrunDir;
+    public float bestTime = 0;
     bool hasWrittentime = false;
     // Start is called before the first frame update
     void Start()
     {
-        speedrunDir = Application.persistentDataPath + "/times";
-        if (!RTConsole.Singleton.IsRegistered<float>("speedrunTimer"))
+        speedrunDir = Application.persistentDataPath + "/times.txt";
+        if (!RTConsole.Singleton.IsRegistered("speedrunTimer"))
         {
             Startup();
         }
@@ -22,7 +23,7 @@ public class SpeedrunTimerConsoleExtension : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!RTConsole.Singleton.IsRegistered<float>("speedrunTimer"))
+        if (!RTConsole.Singleton.IsRegistered("speedrunTimer"))
         {
             Startup();
         }
@@ -54,11 +55,13 @@ public class SpeedrunTimerConsoleExtension : MonoBehaviour
             }
             else
             {
+                bestTime = time;
                 if (time > ConVar.Get<float>("sp_time").value)
                 {
                     File.WriteAllText(speedrunDir, ConVar.Get<float>("sp_time").value.ToString());
                 }
             }
+            GameObject.Find("Canvas").GetComponent<CreditsController>().ShowTime(this);
         }
         else
         {
@@ -78,7 +81,7 @@ public class SpeedrunTimerConsoleExtension : MonoBehaviour
         //TypedConVar<bool>.RegisterConVar("IndividualLevelTimer", false);
     }
 
-    string toMinSec(float time)
+    public static string toMinSec(float time)
     {
         return Mathf.Floor(time / 60) + ":" + (time % 60);
     }

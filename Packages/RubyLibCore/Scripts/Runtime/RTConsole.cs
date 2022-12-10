@@ -79,6 +79,14 @@ public class RTConsole : MonoBehaviour
         }
         return false;
     }
+    public bool IsRegistered(string name)
+    {
+        if (PersistantDataHolder.Instance.ConVars.ContainsKey(name))
+        {
+            return true;
+        }
+        return false;
+    }
 
     public ConVar GetConVar(string name)
     {
